@@ -1,0 +1,33 @@
+name: IBM API 11 Portal
+
+description: Drupal 11 portal for IBM API Package
+
+type: theme
+
+core: 8.x
+
+libraries:
+   - portalibmnew1/global-styling
+   - portalibmnew1/global-scripts
+css:
+      css/style.css: {}
+      css/bootstrap.css: {}
+      
+      
+js:
+    js/style.js: {}
+
+
+regions:
+  header: header
+  sidebar_first: sidebar first
+  sidebar_second: sidebar second
+  content: content
+  leftheader: left header
+  rightheader: right header
+  firstfooter: first footer
+  secondfooter: second footer
+  thirdfooter: third footer
+  fourthfooter: fourth footer
+  fifthfooter: fifth footer
+  footer: footer

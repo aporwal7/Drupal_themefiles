@@ -1,0 +1,194 @@
+   {% if logged_in %}
+    <div id="page" class="logged-in">
+      {% else %}
+      <div id="page" class="logged-out">
+      {% endif %}
+      {% if page.headline %}
+        <section id="headline">
+        <div class= "container">
+          {{ page.headline }}
+        </div>
+        </section> 
+        {% endif %}
+      <header id="header">
+           <!-- <div class="toggle-menu">
+                        <button>
+                            <span>a</span>
+                            <span>b</span>
+                            <span>c</span>
+                        </button>
+                    </div> -->
+        <div class="top-header">
+          <div class="container top-head-container">
+            <div class="row">
+              {% if logged_in %}
+              <div class="col-md-12 col-sm-12 col-xs-12 logged_in"><div class="upper_header clearfix">
+                     <nav>  <ul>
+                         <li id="bell-section">
+                           <a href="#"><img src="{{ base_path ~ directory }}/images/2018-06-20.png"></a>
+                         </li>
+                         <li style="margin-top: 5px;padding-left: 30px;">
+                           <a href="{{ base_path }}user-profile">{{currentusername}}</a>
+                         </li>
+                         <li class="my-link" style="margin-top: 5px;"><img src="{{ base_path ~ directory }}/images/dowarrow.png"></li>
+                        
+                       </ul>
+                       <div class="user-dropdown">
+                        <div class="user-links">
+                          <div><a href="{{ base_path }}user-profile">My Account</a></div>
+								<div><a href="{{ base_path }}user/{{uid}}/change-password">Change Password</a></div>
+                          <div><a href="{{ base_path }}myorg/create">Create Organization</a></div>
+                          <div><a href="{{ base_path }}myorg/edit">Edit Organization</a></div>
+                          <div><a href="{{ base_path }}myorg">My Organization</a></div>
+                          <div><a href="{{ base_path }}user/logout">Logout</a></div>
+                          <div id="user-edit-link"><a href="{{ base_path }}user/{{uid}}/edit">My Account</a></div>
+                        
+                       </nav>
+
+                     </div></div></div>
+          {% else %}
+          <div class="col-md-12 col-sm-12 col-xs-12 not-logged-in"><div class="upper_header clearfix">
+                       <nav><ul>
+                         <li id="bell-section">
+                           <a href="{{ base_path }}user">Login</a>
+                         </li>
+                         <li>
+                           <a href="{{ base_path }}user/register" class="btn">Create new account</a>
+
+                         </li>
+                         
+                       </ul></nav>
+                     </div></div></div>
+          {% endif %}
+
+          </div>
+        </div>
+                  <div class="bottom-header">
+            
+            <div class="container">
+              {% if logged_in %}
+              <div class="row">
+            <div class="col-sm-4 header-left" style="display:inline-block;">
+
+              {{ page.leftheader }}
+            </div>
+            <div class="col-sm-8 header-right" style="display:inline-block;">
+
+                {{ page.rightheader }}
+                <!-- <div id="search-border"></div>
+              <div class="search_box_toggle">
+                                 
+                <span>X</span>
+                <input type="button" name="" class="search_btn">
+              </div> -->
+            </div>
+            </div>
+            {% else %}
+               <div class="row">
+            <div class="col-sm-5 header-left" style="display:inline-block;">
+
+              {{ page.leftheader }}
+            </div>
+            <div class="col-sm-7 header-right" style="display:inline-block;">
+
+                {{ page.rightheader }}
+                <!-- <div id="search-border"></div>
+              <div class="search_box_toggle">
+                                 
+                <span>X</span>
+                <input type="button" name="" class="search_btn">
+              </div> -->
+            </div>
+            </div>
+            {% endif %}
+          </div>
+          </div>
+                
+        
+      </header>
+      <section id="main">
+       
+            <div class="row">
+                
+                    {% if page.sidebar_first and page.sidebar_second %}
+                <div id="sidebar-first" class="sidebar col-md-3 col-sm-3 col-xs-12">
+              <aside class="section" role="complementary">
+                {{ page.sidebar_first }}
+              </aside>
+            </div>
+                <div id="content" class="col-md-6 col-sm-6 col-xs-12">
+                    {{ page.content }}
+                </div>
+                <div id="sidebar-second" class="sidebar col-md-3 col-sm-3 col-xs-12">
+              <aside class="section" role="complementary">
+                {{ page.sidebar_second }}
+              </aside>
+            </div>
+                     {% elseif page.sidebar_first %}
+
+                     <div id="sidebar-first" class="sidebar col-md-3 col-sm-3 col-xs-12">
+              <aside class="section" role="complementary">
+                {{ page.sidebar_first }}
+              </aside>
+            </div>
+                <div id="content" class="col-md-9 col-sm-9 col-xs-12">
+                    {{ page.content }}
+                </div>
+                {% elseif page.sidebar_second %}
+
+                     
+                <div id="content" class="col-md-9 col-sm-9 col-xs-12">
+                    {{ page.content }}
+                </div>
+                <div id="sidebar-second" class="sidebar col-md-3 col-sm-3 col-xs-12">
+              <aside class="section" role="complementary">
+                {{ page.sidebar_second }}
+              </aside>
+            </div>
+                {% else %}
+                     <div id="content">
+                    {{ page.content }}
+                </div>
+                {% endif %}
+            </div>
+       
+        </section>
+      
+        <footer id="footer">
+        <div  class="container">
+    <!--     <div class="upper-footer">
+                     <div class="row">
+                         <div class="col-md-6 col-sm-6 col-xs-12 sub-block-text" style="padding-left:0px">
+                             <div class="subscribe-form-text">
+                                 <h3 class="subhead colorWhite font400" style="
+    font-size: 20px;
+">Sign up for the newsletter</h3>
+                                 <p class="colorWhite">News, specials, and promotions sent directly to your inbox</p>
+                             </div>
+                         </div>
+                         <div class="col-md-6 col-sm-6 col-xs-12 sub-block-form">
+                             <div class="subscribe-form">
+                            
+                                 <input type="text" name="" class="enter_email_here" placeholder="Enter your email address">
+                                 <input type="button" name="" class="btn btn_red subscribe_here" value="Subscribe">
+                             </div>
+                         </div>
+                     </div> 
+                  </div> -->
+          
+          <div id="footer-columns" class="clearfix row">
+            
+              
+              <div class="col-sm-3 footer_sec">{{ page.firstfooter }}</div>
+              <div class="col-sm-3 footer_sec">{{ page.secondfooter }}</div>
+              <div class="col-sm-3 footer_sec" >{{ page.thirdfooter }}</div>
+              <div class="col-sm-3 footer_sec" >{{ page.fourthfooter}}</div>
+          </div>
+           <div id="lower-footer">
+           {{ page.footer }}
+         </div>
+          
+          </div>
+        </footer>
+      
+    </div>

@@ -1,0 +1,5884 @@
+/**************custonm fonts for IBM portal*****************/
+/******** open sans font family**********************/
+/* cyrillic-ext */
+
+
+
+/******css for header section**********/
+.toggle-menu {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: source sans pro!important;
+}
+
+
+p{
+    font-family: open sans;
+}
+
+.toggle-menu button {
+    /* display: block; */
+    height: 26px;
+    width: 28px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #000;
+    position: relative;
+    text-align: center;
+    padding: 0;
+}
+
+.toggle-menu button span {
+    display: block;
+    height: 2px;
+    width: 20px;
+    background-color: #000;
+    padding: 1px;
+    margin: 4px auto;
+}
+
+.header-right .search-block-form .form-actions{
+    display: none;
+} 
+
+.header-right{
+    padding-right: 0px!important;
+    float: right;
+}
+
+
+@media only screen and (max-width: 991px){
+    .toggle-menu {
+        display: block;
+        -webkit-transition: .4s ease-in 0s;
+        -moz-transition: .4s ease-in 0s;
+        -ms-transition: .4s ease-in 0s;
+        transition: .4s ease-in 0s;
+        /* display: block; */
+        position: absolute;
+        right: 40px;
+        top: 53px;
+        right: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .header-right {
+        padding-left: 0px!important;
+    }
+}
+
+.top-header nav{
+   float: right;
+   /*position: relative;*/
+}
+
+.top-head-container{
+    padding-right: 0px!important;
+}
+
+.top-header nav ul{
+    list-style: none;
+}
+
+.top-header,.bottom-header{
+    border-bottom: 1px solid #DAD3D2
+}
+
+.header-right nav ul li,.top-header nav ul li{
+    display: inline-block;
+    margin-bottom: -1px;
+    float: left;
+}
+
+.top-header{
+    padding: 8px 0;
+}
+
+#header .search-block-form h2,#header .search-block-form #edit-submit,.search_box_toggle span{
+    display: none;
+}
+
+.top-header ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #000000;
+    font-family: open sans;
+    font-weight: 400;
+}
+
+.top-header .logged_in ul li:first-child:after {
+    left: 44px;
+}
+
+.user-dropdown{
+    position: absolute;
+    top: 32px;
+    background-color: #ffffff;
+    border: 1px solid #DAD3D2;
+    max-width: 180px;
+    width: 100%;
+    padding: 10px;
+    display: none;
+    z-index: 999999999;
+    right: 16px;
+    border-radius: 10px;
+}
+
+.user-dropdown:hover{
+    box-shadow: 0px 0px 33px 0px rgba(1,2,2,0.22);
+}
+
+.user-links div{
+    padding-bottom: 5px;
+}
+
+.user-dropdown  a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0 5px;
+    text-transform: capitalize;
+    text-decoration: none!important;
+    font-size: 11px;
+    color: #000000;
+    font-family: open sans;
+    font-weight: 600;
+}
+
+
+.my-link{
+    margin-left: 5px;
+    max-height: 20px;
+    max-width: 15px;
+    cursor: pointer;
+}
+
+.display-block{
+    display: block;
+}
+
+#header .search-block-form input.form-search{
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 21px;
+}
+
+.header-left{
+    padding: 23px 0px 15px!important;
+    min-height: 63px!important;
+
+}
+
+.header-left img{
+    width: 173px;
+    height: 30px;
+}
+
+.header-right ul li a{
+    display: block;
+    padding: 28px 8px;
+    margin: 0 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    font-size: 13px;
+    color: #231f20;
+    font-family: open sans;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 767px){
+    .header-right ul li a{
+        padding: 27.5px 8px;
+    }
+}
+
+.header-right ul li:last-child a{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.header-right nav ul{
+    padding-left: 0;
+    position: relative;
+    float: right;
+    margin-bottom: 0px;
+}
+
+#header .search-block-form{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display:none;
+}
+
+.top-header ul li a:hover,.header-right ul li a:hover {
+    color: #6b6b6b;
+}
+
+
+
+.header-right nav ul li a:hover,.header-right nav ul li a.is-active {
+    border-bottom: 3px solid #000;
+}
+
+/**************css for footer  section*****************/
+.footer_sec ul li a{
+    color: #e4e4e4;
+    font-size: 11px;
+    text-decoration: none;
+
+}
+
+#lower-footer{
+    padding: 1% 0%;
+}
+
+.font400 {
+    font-weight: 400 !important;
+}
+
+.smallhead {
+    font-size: 13px;
+    padding-bottom: 11px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.footer_sec ul,#footer p,#footer h3{
+    color: #ffffff;
+}
+
+#footer{
+    background: #1d3444;
+    width: 100%;
+    z-index: 99999999;
+}
+
+#footer ul{
+    list-style: none;
+}
+
+.social_footer img{
+    padding: 0 5px;
+    -o-transition: .2s ease-in 0s;
+    transition: .2s ease-in 0s;
+    -webkit-transition: .2s ease-in 0s;
+    -moz-transition: .2s ease-in 0s;
+    -ms-transition: .2s ease-in 0s;
+}
+
+.social_footer img:hover{
+   -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+
+.copy-footer p {
+    color: #e4e4e4;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding: 20px 0 23px;
+}
+
+
+.subscribe-form .enter_email_here {
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 5px 125px 5px 15px;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 5px;
+    margin-right: -17px;
+}
+
+.subscribe-form .subscribe_here {
+    background: #cc1431;
+    color: #fff;
+    margin-top: -2px;
+    padding: 5px 11px;
+    border-radius: 0px;
+}
+
+.upper-footer, #footer-columns {
+    border-bottom: 1px solid #344e60;
+}
+
+.upper-footer{
+    padding: 20px 0 10px;
+}
+
+#footer-columns{
+    padding-top: 20px;
+}
+.sub-block-text{
+    padding-left: 0px;
+}
+
+@media only screen and (min-width: 600px){
+  
+    .footer_sec{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 599px){
+  
+    .footer_sec,.footer_sec ul{
+        padding-left: 0px;
+    }
+
+}
+
+/*************css for login page*********************/
+
+.login_form_sec .apic-portal-title,.login_form_sec .apic-user-form-header,
+.login_form_sec #edit-headers-container {
+    display: none;
+}
+
+.facility_desc_icon{
+    padding-bottom: 10px;
+}
+
+.right_hand_form_sec #block-ibmapi2portal-local-tasks ,.right_hand_form_sec #block-ibmapi2portal-page-title{
+    display: none;
+} 
+
+.user-login-section .apic-user-form{
+    position: relative;
+    padding-right: 0px;
+    max-width: 100%!important;
+}
+
+.user-login-section div ul{
+    padding-left: 0px;
+    list-style: none;
+}
+
+.user-login-section div ul li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #808284;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+
+.login_form_sec {
+    display: table;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.avail_platform {
+    padding-top: 133px;
+}
+
+.left_hand_banner_sec{
+    width: 460px;
+    background: center center transparent no-repeat;
+    background-size: cover;
+    padding: 42px 50px;
+}
+
+.avail_platform ul li {
+    padding-bottom: 48px;
+}
+
+.avail_platform {
+    padding-top: 133px;
+}
+
+.left_hand_banner_sec, .right_hand_form_sec {
+    display: table-cell;
+}
+
+
+.login_form_sec .form_details .user-login-form .description,
+.user-register-form .description,.user-register-form .password-suggestions ul li,
+.user-edit-profile .password-suggestions ul li,.user-edit-profile .description,
+#consumerorg-create-form p,
+.password-suggestions ul li,.description{
+    font-size: 11px;
+    color: #808284;
+    margin-top: 5px;
+    font-weight: 400;
+} 
+
+#consumerorg-create-form p{
+    margin-top: 5%;
+}
+
+#consumerorg-invite-user-form{
+    max-width: 500px;
+    margin-bottom: 6%;
+}
+
+.link_style {
+    font-size: 13px;
+    font-weight: 400;
+    color: #00b9e3;
+    text-decoration: underline;
+    padding-left: 3px;
+    line-height: 18px;
+    vertical-align: top;
+}
+
+/*.user-edit-profile #user-image #block-ibmapi95portal-page-title,
+.user-edit-profile #user-image nav,
+.user-edit-profile #user-image #edit-account{
+    display: none;
+}*/
+.right_hand_form_sec
+{
+    max-width: calc(100% - 450px);
+    padding: 60px 0;
+    vertical-align: middle;
+}
+
+.form_details {
+        max-width: 360px;
+    margin: 0 auto;
+}
+
+.user-edit-profile .form_details{
+margin-left: 0px;
+}
+
+.login_form_sec .form-actions {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.login_form_sec input#edit-submit
+{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: open sans;
+    color: #fff;
+    background-color: #ec1d3e;
+    border: 1px solid #ec1d3e;
+    min-width: 140px;
+    padding: 5px 22px;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.login_form_sec input.form-text
+{
+        padding: 5px 10px 5px;
+        width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+}
+.apic-user-form-login .apic-user-form-text{
+    text-align: left;
+    padding-left: 0px;
+}
+
+.avail_platform ul{
+        list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.subhead {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 8px;
+    font-family: source sans pro;
+
+}
+
+.colorWhite {
+    color: #fff !important;
+}
+
+.avail_platform ul li {
+    padding-bottom: 48px;
+}
+
+.login_form_sec .apic-user-form
+{
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.login_form_sec .apic-user-form .form_style label,
+.contact-message-feedback-form label
+{
+
+font-size: 14px;
+    font-weight: 400;
+    color: #231f20;
+    text-transform: capitalize;
+   /* display: block;*/
+}
+
+.login_form_sec .apic-user-form-wrapper{
+    margin-left: 0px;
+    width: 100%;
+}
+
+.login_form_sec .apic-user-form-inner-wrapper{
+max-width: 100%;
+}
+
+.login_form_sec .apic-user-form-login{
+margin-left: 0px;
+    padding-left: 0px;
+}
+.login_form_sec .apic-user-forgot-password {
+    text-align: left;
+
+   
+}
+
+
+
+
+.back-to-login{
+    position: absolute;
+    bottom: -10px;
+    font-size: 13px;
+}
+
+.back-to-login a{
+    /*padding-left: 1%;*/
+    vertical-align: baseline;
+    font-size: 13px!important;
+    display: inline-block;
+}
+
+.user-forgot-password{
+    position: relative;
+}
+
+
+
+.user-forgot-password .apic-user-form-footer{
+    display: none;
+}
+
+.back_login{
+font-size: 15px!important;
+padding-left: 1px;
+}
+
+/*.login_form_sec input#edit-submit{
+    font-size: 14px;
+}*/
+
+.user-change-pass-section #edit-pass--description{
+display: none;
+}
+.login_form_sec .apic-user-forgot-password a,.login_form_sec .apic-user-form-text a,
+#contact-message-feedback-form .form-item-terms a,.user-forgot-password a,
+.user-edit-profile #edit-current-pass--description a,.change-password-link a{
+    font-size: 13px;
+    font-weight: 400;
+    color: #00b9e3!important;
+    text-decoration: underline!important;
+    /* padding-left: 3px; */
+    line-height: 18px;
+    vertical-align: top;
+}
+
+.login_form_sec .apic-user-forgot-password a{
+        font-family: open sans;
+    font-weight: 400!important;
+    font-size: 13px;
+}
+
+
+.change-password-link{
+    margin-top: 4%;
+}
+
+.read-more,
+.read-more *{
+ font-size: 14px!important;
+    font-weight: 400!important;
+    color: #00b9e3!important;
+    text-decoration: underline!important;
+    /* padding-left: 3px; */
+    line-height: 18px;
+    vertical-align: top;
+}
+/*.login_form_sec .apic-user-forgot-password a{
+    font-size: 12px;
+}*/
+
+.form_head p,.user-pass p,
+#application-create-credentials-form p,.user-login-section .apic-user-form-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #808284;
+    margin-bottom: 0;
+}
+
+#consumerorg-create-form p,
+#application-update-credentials-form p,
+#application-verify-clientsecret-form p,#user-delete-form{
+    font-size: 14px;
+    font-weight: 400;
+    color: #808284;
+    
+}
+
+#application-update-credentials-form .form-item{
+    margin-bottom: 3%;
+}
+
+#application-create-credentials-form p{
+    margin-bottom: 2%!important;
+}
+.form_head {
+    padding-bottom: 20px;
+}
+
+.user-login-section .form_head{
+    padding-bottom: 8px;
+}
+
+.user-login-section .user-login-form{
+        margin-bottom: 4%;
+    /*margin-top: 10px;*/
+}
+
+
+.user-login-section .apic-user-form,
+.user-register-section .apic-user-form{
+    padding-top: 0px!important;
+}
+
+.meadium_head {
+    font-size: 25px;
+    color: #231f20;
+    margin: 0;
+    padding-bottom: 6px;
+    font-family: source sans pro;
+}
+
+#contact-message-feedback-form .form-item,
+.login_form_sec .form-item,.login_form_sec .form-actions {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#contact-message-feedback-form  .form-actions{
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+.user-login-section .form-actions{
+
+ margin-bottom: 0px;   
+}
+
+
+.user-login-section .form-item{
+    margin-bottom: 0px!important;
+}
+
+.user-login-section .apic-user-form-footer .apic-user-form-text{
+    padding: 0px!important;
+}
+
+
+.user-login-section .apic-user-form-footer .apic-user-form-text{
+font-size: 13px;
+}
+
+.apic-user-form-footer .apic-user-form-text a{
+    padding-left: 1%;
+    vertical-align: text-bottom;
+}
+.contact-header{
+margin-top: 40px;
+}
+
+.contact-header p,
+.forum_desc p,
+#contact-message-feedback-form .description,
+#forum-header p{
+    color: #777171;
+}
+
+#contact-message-feedback-form .form-item-terms {
+display: flex;
+}
+
+#contact-message-feedback-form .form-item-terms label{
+margin-left: 10px;
+}
+
+
+
+.user-login-form .form-item label,.user-forgot-password .form-item label,
+.consumerorg-edit-form  label span,.consumerorg-create-form label span,
+#application-create-form-one .form-item label,
+#consumerorg-create-form .form-item label,
+#consumerorg-edit-form .form-item label,
+#application-verify-clientsecret-form .form-item label,
+#application-update-form .form-item label,
+#consumerorg-invite-user-form label,
+.user-forgot-pass-section form .form-item label{
+     font-size: 14px;
+    font-weight: 400;
+    color: #231f20;
+    text-transform: capitalize;
+    display: block;
+    font-family: open sans;
+
+}
+
+label{
+font-family: open sans;
+}
+
+
+.user-forgot-password .form-item label,
+.user-login-form .form-item label{
+font-size: 15px;
+}
+
+
+#consumerorg-invite-user-form label{
+    display: inline-block;
+}
+
+
+#application-update-form .form-item,
+#consumerorg-invite-user-form .form-item{
+    margin-bottom: 2%;
+}
+
+/*#application-update-form #application-redirect-endpoints-add-more-wrapper .form-item{
+margin-bottom: 0%;
+}*/
+
+#application-create-form-one h4.label,
+#application-update-form h4.label{
+    padding: 0px!important;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: #231f20;
+    text-transform: capitalize;
+    display: block;
+}
+
+.op-product-view .form-item label{
+     font-size: 14px;
+    font-weight: 400;
+    color: #231f20;
+    text-transform: capitalize;
+    
+}
+
+.op-product-view .views-exposed-form .form-item-title,
+.op-product-view .views-exposed-form .form-item-sort-order,
+.op-product-view .views-exposed-form .form-item-items-per-page{
+display: none;
+}
+
+.product-view .views-exposed-form .form-actions{
+    display: none!important;
+}
+.op-product-view .views-exposed-form select{
+    background-color: #ffffff;
+}
+
+/*.op-product-view{
+    margin-bottom: 7%;
+}*/
+
+.contact-message-feedback-form input#edit-captcha-response {
+    width: 30%;
+}
+
+..contact-message-feedback-form .largehead{
+font-size: 30px!important;
+}
+
+.contact-message-feedback-form .form-item-captcha-response label{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px){
+.left_hand_banner_sec{
+    display: block;
+    max-width: 100!important;
+}
+
+
+.avail_platform {
+    padding-top: 40px;
+}
+
+.avail_platform ul li {
+    padding-bottom: 20px;
+}
+
+.right_hand_form_sec {
+    max-width: 100%;
+}
+
+.left_hand_banner_sec, .right_hand_form_sec {
+    display: block;
+    width: 100%!important;
+}
+
+.form_details {
+    margin: 0;
+    padding: 0 20px;
+}
+
+}
+
+@media only screen and (min-width: 600px){
+.user-login-section .apic-user-forgot-password{
+         position: absolute;
+    bottom: 54%;
+    left: 69%;
+    width: 100%;
+
+}
+.header-right{
+float: right;
+}
+
+}
+/*@media only screen and (max-width: 991px){
+.right_hand_form_sec {
+    padding: 30px 0;
+}
+.left_hand_banner_sec {
+    width: 320px;
+    padding: 30px;
+}
+}*/
+
+/*@media only screen and (max-width: 767px){
+.form_details {
+    max-width: 340px;
+}
+
+.left_hand_banner_sec {
+    width: 260px;
+    padding: 20px;
+}
+.bussiness_motiv_sec li:after {
+    height: 1px;
+    width: 100%;
+    left: 0;
+    margin: 0 auto;
+    top: auto;
+    bottom: 5px;
+}
+
+}*/
+
+
+/*********css for about op page*****************/
+
+.about_us_detail h2{
+font-weight: 100;
+}
+
+.about_us_sec p {
+    margin-bottom: 18px;
+}
+
+.steps_to_use_sec {
+    padding-bottom: 50px;
+}
+
+.ex-space {
+    padding: 53px 0 58px;
+}
+
+.steps_to_use_sec h2 {
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.steps_desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 100px 70px 0;
+}
+
+.steps_desc .btn{
+    font-family: open sans!important;
+    font-weight: 400!important;
+}
+
+
+.rigth_img .steps_img {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    text-align: right;
+}
+
+.steps_img img{
+   
+    width: 100%;
+   
+}
+
+#get-start .btn,
+#about-op .btn,
+.front-page #main .btn{
+height: 30px;
+    font-size: 13px;
+    font-weight: 400px!important;
+}
+
+.rigth_img .step_details {
+    padding-left: 0;
+    padding-right: 80px;
+}
+
+.step_details h3{
+    font-family: source sans pro;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.step_details p{
+    font-family: open sans;
+    font-weight: 200px;
+}
+
+
+.rigth_img .step_details {
+    padding-left: 0;
+    padding-right: 80px;
+}
+.step_details {
+    width: 50%;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.steps_img {
+    width: 50%;
+    }
+
+.rigth_img .steps_img{
+    padding-left: 100px;
+}
+
+
+.mobile_payment_sec {
+    background: transparent center center no-repeat;
+    background-size: cover;
+    min-height: 230px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+    .center_text {
+    text-align: center;
+    min-height: 290px;
+}
+
+.row{
+margin-left: 0px!important;
+margin-right: 0px!important;
+}
+
+.step_details * {
+    text-align: left;
+}
+
+.step_details a {
+    float: left;
+    margin-top: 10px;
+}
+
+
+.btn,
+.op-product-view .views-exposed-form .apicNewApp{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #ec1d3e;
+    border: 1px solid #ec1d3e;
+    min-width: 140px;
+    padding: 5px 22px;
+    border-radius: 4px;
+    -o-transition: .2s ease-in 0s;
+    transition: .2s ease-in 0s;
+    -webkit-transition: .2s ease-in 0s;
+    -moz-transition: .2s ease-in 0s;
+    -ms-transition: .2s ease-in 0s;
+    height: 30px;
+}
+
+.mob_payment_wrapper {
+    max-width: 420px;
+}
+
+.max_100 {
+    max-width: 100% ! important;
+}
+
+img {
+    max-width: 100%;
+    margin: 0 auto;
+    max-height: 100%;
+}
+
+@media only screen and (max-width: 991px){
+.rigth_img .step_details {
+    padding-right: 20px;
+}
+.steps_to_use_sec {
+    padding-bottom: 40px;
+}
+.ex-space, .api_category_sec {
+    padding: 30px 0 40px 0;
+}
+.step_details {
+ 
+    padding-left: 20px;
+ 
+}
+.rigth_img .steps_img{
+    padding-left: 20px;
+}
+}
+
+@media only screen and (max-width: 600px){
+.step_details {
+    margin: 0 auto;
+}
+.steps_img {
+    max-width: 200px;
+}
+.steps_img, .step_details {
+    width: 100%;
+    text-align: left;
+    padding: 0;
+}
+.step_details {
+    max-width: 360px;
+    padding-top: 20px;
+}
+.steps_img {
+    margin: 0 auto;
+}
+.steps_desc {
+    display: block;
+    padding: 20px 0px 0;
+}
+
+}
+
+
+/*******************css for getting started page*******************/
+
+
+
+.inner_banner {
+    min-height: 370px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.final_step_desc{
+    margin-left: 4%;
+}
+
+.get_start_detail {
+    max-width: 500px;
+    position: relative;
+    z-index: 11;
+}
+
+
+
+
+/*.get_start_detail h2 {*/
+    /*font-size: 36px;*/
+    /*font-weight: 700;
+    line-height: 44px;
+    margin: 0;
+    padding-bottom: 0;
+        color: #fff !important;
+        font-weight: 300 !important;*/
+    /* letter-spacing: .5px; */
+/*}*/
+
+.step_no {
+    display: block;
+    font-size: 60px;
+    font-weight: 500;
+    color: #cccccc;
+    font-family: 'Source Sans Pro';
+}
+
+
+.final_step {
+    padding: 40px 0 50px;
+    border-top: 1px solid #ddd;
+}
+
+.center_text .mob_payment_wrapper {
+    margin: 0 auto;
+}
+
+.mob_payment_wrapper {
+    max-width: 550px;
+}
+
+.mob_payment_wrapper h2{
+        font-size: 35px;
+    margin: 0;
+    padding-bottom: 16px;
+    line-height: 40px;
+        font-weight: 300 !important;
+}
+
+
+@media only screen and (max-width: 767px){
+.mob_payment_wrapper h2
+{
+        font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 0;
+}
+}
+
+/******************css for blog page**************************/
+
+
+.list_head h3{
+        line-height: 30px;
+            font-size: 30px;
+    /*margin: 0;*/
+    padding-bottom: 16px;
+    line-height: 40px;
+
+}
+
+article ul.links{
+    display: none;
+}
+
+.blog-title{
+padding-left: 0px!important;
+padding-top: 35px;
+}
+
+.blog-title h3{
+    font-family: open sans;
+    font-weight: bold;
+}
+
+.text-black{
+color: #000000!important;
+}
+
+.list_head h3{
+    padding-bottom: 10px !important;
+    font-family: source sans pro;
+}
+
+.product_listing_wrapper {
+    margin: 0 -10px;
+}
+.product_listing_wrapper ul,.blog-page-listing ul,
+.product-listing-wrapper ul{
+        padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+/*.op-product-view #edit-actions{
+    margin-top: 1%;
+}*/
+.blog-page-listing{
+    margin-bottom: 7rem;
+}
+
+.blog-page-listing a.feed-icon{
+display: none;
+}
+
+.op-product-view header{
+    display: inline-block;
+    max-width: 50%;
+}
+
+.op-product-view .views-exposed-form
+{
+    /*max-width: 50%;*/
+    display: inline-block;
+    /*float: right;*/
+    margin-top: 20px;
+
+}
+
+.op-product-view .views-exposed-form .form-item-tid{
+display: inline-block;
+    float: left;
+}
+
+.op-product-view .views-exposed-form .form-item-sort-by{
+display: inline-block;
+float: left;
+}
+
+.op-product-view .views-exposed-form .form-actions{
+display: inline-block;
+float: left;
+}
+
+
+.op-product-view .views-exposed-form .form-item-sort-by{
+    display: none;
+}
+.op-product-view .views-exposed-form #edit-reset{
+    display: none;
+}
+
+.blog_sec ul li,.blog-page-listing ul li {
+    width: 33.33%;
+        display: inline-block;
+    /*width: 25%;*/
+    float: left;
+    padding: 21px 10px 0px 0px;
+    
+    /*border: 1px solid #ddd;*/
+    /*box-shadow: 0px 0px 33px 0px rgba(1, 2, 2, 0.22);*/
+}
+
+.blog-post-sec:hover{
+    box-shadow: 0px 0px 33px 0px rgba(1, 2, 2, 0.22);
+    
+}
+
+.blog-post-sec .blog_img{
+min-height: 220px;
+}
+
+
+.blog-post-sec{
+ 
+    border: 1px solid #ddd;
+}
+.list_wrapper, .whiteBox{
+        border: 1px solid #ddd;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 4px;
+    transition: .2s ease-in 0s;
+    -webkit-transition: .2s ease-in 0s;
+    -ms-transition: .2s ease-in 0s;
+    -moz-transition: .2s ease-in 0s;
+}
+
+
+.blog_img img,.blog-img {
+    max-height: 220px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.blog_desc,.blog-desc {
+    text-align: left;
+    padding: 17px 20px;
+        font-size: 14px;
+    color: #808284;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.blog_desc p,.blog_desc * {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    min-height: 60px;
+}
+
+.pd-0 {
+    padding: 0 !important;
+}
+
+@media only screen and (max-width: 991px){
+.blog_sec ul li,.blog-page-listing ul li {
+    width: 33.33%;
+}}
+
+
+@media only screen and (max-width: 680px){
+.blog_sec ul  li.blog-page-listing ul li {
+    width: 50%;
+}
+}
+
+@media only screen and (max-width: 480px){
+.blog_sec ul li,.blog-page-listing ul li {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    float: none;
+    display: block;
+    margin-bottom: 5%;
+}
+}
+
+
+
+/*@media only screen and (max-width: 420px){
+.blog_sec ul li {
+    width: 50%;
+}
+}
+*/
+
+@media only screen and (max-width: 1024px){
+.blog_desc,.blog-desc {
+    padding: 12px 10px;
+}
+.blog_desc p,.blog_desc * {
+    font-size: 14px;
+    line-height: 22px;
+}
+}
+
+
+@media only screen and (max-width: 680px){
+.blog_desc p,.blog_desc * {
+    font-size: 13px;
+    line-height: 18px;
+}
+}
+
+
+
+/**************css for api products page************************/
+
+.filter_sec {
+    text-align: right;
+    padding-top: 0;
+    position: relative;
+}
+
+.apicProductRating{
+    display: none;
+}
+
+.op-product-view{
+margin-bottom: 6%;
+margin-top: 2%;
+}
+
+.filter_dropdown {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+    margin-top: 4px;
+}
+
+.filter_dropdown label {
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #808284;
+}
+
+.select_dropdown,.op-product-view .views-exposed-form select {
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+}
+
+.op-product-view .apicProductAPIs{
+display: none;
+}
+
+/*.op-product-view .views-exposed-form label{
+min-width: 100px;
+}*/
+
+.op-product-view .views-exposed-form .form-text{
+width: 60%;
+}
+
+.op-product-view .bx--card .apicProductCardMain .bx--about__title--name a {
+    display: block;
+}
+
+.op-product-view .bx--card .apicProductCardMain{
+    margin-left: 0px!important;
+}
+.filter_sec .search_tab {
+    top: 0px;
+    /* right: 0; */
+    width: 33px;
+    /* background: #f00; */
+    height: 30px;
+    position: relative;
+    display: inline-block;
+}
+.search_tab {
+    position: absolute;
+    right: 4px;
+    top: 15px;
+}
+.search_box {
+    min-height: 42px;
+    border: 1px solid #ddd;
+}
+
+.search_box {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-left: 1px solid #ddd;
+}
+
+.op-product-view ul.products_pay_details,.op-product-view ul.products-pay-details {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+ul.products-pay-details li {
+         display: inline-block;
+    width: 25%;
+    float: left;
+    padding: 21px 20px 0px 0px;
+
+}
+
+ul.products-pay-details li:nth-child(4n){
+    padding-right: 0px;
+}
+.op-product-view ul.products_pay_details li article,ul.products_pay_details li article{
+        /*border: 1px solid #ddd;*/
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 4px;
+    transition: .2s ease-in 0s;
+    -webkit-transition: .2s ease-in 0s;
+    -ms-transition: .2s ease-in 0s;
+    -moz-transition: .2s ease-in 0s;
+}
+
+.op-product-view .apicCardIcon {
+        width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    position: relative;
+    transition: .2s ease-in 0s;
+    -webkit-transition: .2s ease-in 0s;
+    -ms-transition: .2s ease-in 0s;
+    -moz-transition: .2s ease-in 0s;
+    display: flex;
+    align-items: center;
+}
+
+.op-product-view .apicCardIcon img{
+        width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 48px;
+}
+
+.op-product-view .views-exposed-form .view-filter-button{
+display: none;
+}
+.op-product-view .bx--about__title--name
+{
+width: auto!important;
+}
+
+.op-product-view .form-submit {
+min-width: auto;
+height: 30px;
+}
+
+.op-product-view .bx--card .apicProductDesc
+{
+height: auto!important;
+}
+
+.payment_icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    position: relative;
+    transition: .2s ease-in 0s;
+    -webkit-transition: .2s ease-in 0s;
+    -ms-transition: .2s ease-in 0s;
+    -moz-transition: .2s ease-in 0s;
+    display: flex;
+    align-items: center;
+}
+
+.payment_method a {
+    display: block;
+    text-decoration: none!important;
+}
+
+.payment_icon img {
+    /* border-radius: 50%; */
+    /* vertical-align: middle; */
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 48px;
+}
+
+/*.api-title{
+    padding-left: 0px!important;
+}*/
+.op-product-view .apicProductCard{
+border: 1px solid #ddd;
+    padding: 40px 20px 20px 20px;
+    text-align: center;
+    border-radius: 4px;
+    max-height: 220px;
+    height: 100%;
+}
+
+.op-product-view .bx--card .apicProductCard{
+   display: block; 
+}
+
+@media only screen and (min-width: 991px){
+.products_pay_details .list_wrapper{
+    min-height: 217px;
+}
+
+/*ul.products_pay_details li {
+    width: 33.33%;
+}*/
+
+
+}
+
+
+
+@media only screen and (max-width: 767px){
+.list_wrapper {
+    padding: 15px 10px;
+}
+.filter_sec {
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+.op-product-view .apicCardIcon
+{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+}
+
+@media only screen and (max-width: 600px){
+.list_wrapper {
+    padding: 15px 10px;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.op-product-view .apicProductCard{
+        padding: 15px 10px;
+}
+}
+
+@media only screen and (max-width: 420px){
+ul.products_pay_details li,ul.products-pay-details li {
+    width: 50%;
+}
+
+.filter_dropdown{
+    display: block;
+    text-align: left;
+}
+}
+
+/**************css for forum page***********/
+
+.forum_search {
+    text-align: right;
+}
+
+.tab_listing {
+    margin-bottom: 30px;
+}
+
+.mCustomScrollbar.mCS_no_scrollbar, .mCustomScrollbar.mCS_touch_action {
+    -ms-touch-action: auto;
+    /* touch-action: auto; */
+}
+
+ul.tab_links {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.mCustomScrollbar {
+    -ms-touch-action: pinch-zoom;
+    touch-action: pinch-zoom;
+}
+
+ul.tab_links li {
+    display: inline-block;
+    
+}
+
+ul.tab_links li:first-child a {
+    margin-left: 0;
+}
+
+ul.tab_links li a:hover {
+    color: #555;
+}
+
+ul.tab_links li a:hover, ul.tab_links li.active a {
+    border-bottom: 3px solid #000;
+}
+
+ul.tab_links li a {
+    display: block;
+    padding: 20px 10px;
+    margin: 0 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    font-size: 13px;
+}
+
+.filter_btn {
+    text-align: right;
+    display: inline-block;
+    border-left: 1px solid #b8b7b7;
+    padding-left: 20px;
+}
+
+.forum_box {
+    border-width: 1px;
+    border-color: rgb(231, 231, 231);
+    border-style: solid;
+    border-radius: 4px;
+    padding: 18px 20px 15px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.basic_transition {
+    transition: .2s ease 0s;
+    -webkit-transition: .2s ease 0s;
+    -moz-transition: .2s ease 0s;
+    -ms-transition: .2s ease 0s;
+}
+
+.forum_box_icon {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+
+.forum_box_detail {
+    padding-left: 50px;
+}
+
+.forum_box_detail h3 {
+    margin: 0;
+    padding-right: 35px;
+}
+
+.forum_box_detail>p {
+    padding-right: 35px;
+}
+
+ul.payment_way {
+    padding-left: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul.payment_way li {
+    display: inline-block;
+    padding-right: 8px;
+    float: left;
+    margin: 3px 0;
+}
+
+ul.payment_way li a {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #39739d;
+    text-decoration: none;
+    padding: 2px 10px;
+    background-color: #d8e7ff;
+    border-radius: 4px;
+    border: 1px solid #39739d;
+}
+
+.post_detail {
+    position: relative;
+}
+
+.post_date {
+    max-width: calc(100% - 160px);
+    display: inline-block;
+}
+
+.post_date span, .post_date label {
+    font-size: 13px;
+    font-weight: 400;
+    color: #808284;
+    display: inline-block;
+}
+
+.post_date span {
+    color: #231f20;
+}
+
+.post_date span, .post_date label {
+    font-size: 13px;
+    font-weight: 400;
+    color: #808284;
+    display: inline-block;
+}
+
+
+
+.posted_answers {
+    display: inline-block;
+    max-width: 110px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    padding-left: 35px;
+}
+
+.post_date span {
+    color: #231f20;
+}
+
+.posted_answers:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: url(../images/answers_icon.png) transparent center center no-repeat;
+    background-size: contain;
+    left: 0;
+    top: 2px;
+}
+
+.subscribe_icon span {
+    display: block;
+    height: 32px;
+    width: 22px;
+    background: url(../images/subscribe_icon.png) transparent center center no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.subscribe_icon {
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+.forum_box:hover,.products-pay-details li article:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 33px 0px rgba(1, 2, 2, 0.22);
+}
+.forum_box_detail h3 a {
+    padding-bottom: 5px;
+    display: block;
+}
+
+a.subhead {
+    text-decoration: none!important;
+}
+
+@media only screen and (max-width: 991px){
+.ex-space, .api_category_sec {
+    padding: 30px 0 40px 0;
+}
+}
+
+@media only screen and (max-width: 767px){
+.subhead {
+    font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 480px){
+.tab_listing {
+    margin-bottom: 20px;
+}
+.forum_box_icon {
+    left: 15px;
+    top: 15px;
+    height: 24px;
+    width: 24px;
+}
+.forum_box_detail {
+    padding-left: 35px;
+}
+.posted_answers {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-top: 8px;
+}
+.post_date {
+    max-width: 100%;
+}
+}
+
+/***************css for FAQ page************************/
+
+    .font-source-sans-pro{
+            font-family: source sans pro;
+    }
+.faq-listing h2.viewTitle,
+.faq-listing #apic-view-filter .form-item-items-per-page,
+.faq-listing #apic-view-filter .form-actions,
+.faq-listing .form-item-faqs-question label,
+ .faq-listing .form-item-faqs-question .description{
+    display: none;
+}
+
+.faq-listing{
+    padding-bottom: 3%; 
+}
+.faq-listing #edit-faqs-question,
+.faq-listing .views-exposed-form .form-item input{
+    height: 50px;
+    -webkit-box-shadow: 0 15px 6px -6px #d3d3d3;
+    -moz-box-shadow: 0 15px 6px -6px #d3d3d3;
+    box-shadow: 0 15px 6px -6px #d3d3d3;
+    font-family: open sans;
+    width: 90%;
+    margin-left: 5%;
+    background: #ffffff;
+    background-image: url(../images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: top 50% right 2%;  
+    background-repeat: no-repeat;
+    border-color: #fff;
+    padding-left: 3%;
+
+}
+
+.faq-listing .views-exposed-form .form-item input::placeholder{
+color: #bbb!important;
+}
+
+.faq-listing article h2{
+        display: inline-block;
+    width: 350px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.faq-listing .form-item-faqs-question{
+    width: 100%;
+    margin-top: -2%;
+    /*background: #ffffff;*/
+    margin-bottom: 1%;
+}
+
+.faq-listing article h3{
+border: 1px solid black!important;
+}
+
+.faq-listing article h3:before{
+border: 1px solid black!important;
+
+}
+
+
+
+.faq-listing article > div{
+    max-width: calc(100% - 360px);
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+}
+
+.faq-listing article{
+    padding-top: 3%;
+    padding-bottom: 3%;
+        border-top: 1px solid #ddd;
+}
+
+
+
+.faq-listing > .views-row:first-child  article{ 
+    border-top: none!important; 
+}
+
+.faq-listing article  h2 a span{
+        font-family: source sans pro;
+    color: #000000;
+    font-weight: 100;
+}
+
+.faq-listing .ui-state-default,
+.faq-listing .ui-state-hover{
+border: none!important;
+} 
+
+
+
+.faq-listing .faqfield-question{
+        font-family: open sans;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 25px 30px;
+    border-bottom: 1px solid #ddd!important;
+    color: #000000;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.faq-listing .faqfield-question:before{
+background: url(../images/question_mark.png);
+}
+
+
+.faq-listing .faqfield-question.ui-state-active{
+color: #00b9e3 !important;
+}
+
+
+
+.faq-listing .views-row:first-of-type article{
+    border-top: none!important;
+}
+
+.faq-listing .faqfield-question:last-of-type{ 
+    border-bottom: none!important;
+}
+
+
+.faq-listing .ui-state-hover .ui-icon,
+.faq-listing .ui-state-focus .ui-icon,
+.faq-listing .ui-state-active .ui-icon,
+.faq-listing .ui-icon{
+background: url(../images/plus_icon.png);
+}
+
+.faq-listing .ui-icon {
+    width: 20px!important;
+    height: 20px!important;
+}
+
+.faq-listing .ui-icon-triangle-1-s{
+ background: url(../images/minus_icon.png)!important;   
+ height: 2px!important;
+ margin-top: .5%;
+}
+
+.faq-listing span.ui-icon{
+    float: right;
+}
+
+.faq-listing .faqfield-answer{
+    font-family: open sans;
+    font-weight: 400;
+}
+
+.faq-listing .ui-widget-content{
+    border: none!important;
+}
+
+
+
+@media only screen and (max-width: 767px){
+.faq-listing article > div {
+    display: block;
+    max-width: 100%;
+
+}
+
+.faq-listing article h2{
+    display: block;
+    width: 100%;
+}
+
+}
+
+/*************css for support page**************************/
+
+.support_detail ul {
+    margin: 0 -20px;
+}
+
+.products_listing_sec{
+    margin-bottom: 4%;
+    margin-top: 1%;
+}
+
+.support_detail ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.whiteBox {
+    text-align: left;
+    padding: 20px;
+}
+
+.support_detail ul li {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.support_detail ul li h3{
+    font-weight: 200;
+}
+
+.support-p{
+    font-weight: 300;
+}
+.samll_icon {
+    max-width: 80px;
+    max-height: 80px;
+    margin-bottom: 30px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px !important;
+}
+
+.support_detail .whiteBox>p {
+    min-height: 70px;
+}
+
+.list_wrapper:hover, .whiteBox:hover {
+    box-shadow: 0px 0px 33px 0px rgba(1, 2, 2, 0.22);
+}
+
+@media only screen and (max-width: 991px){
+.support_detail ul li {
+    padding: 10px;
+}
+}
+
+@media only screen and (max-width: 680px){
+.support_detail ul li {
+    width: 100%;
+}
+}
+
+
+/************css for contact form*********************/
+
+
+#contact-message-feedback-form{
+    max-width: 744px;
+  /*  padding: 60px 0px;
+  margin: 0 auto*/
+
+}
+
+.form-text,.form-email
+{
+        width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    color: #000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    -o-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    position: relative;
+    padding: 5px 10px 5px;
+}
+
+#contact-message-feedback-form .form-item-name,#contact-message-feedback-form .form-item-mail
+{
+        width: 50%;
+    float: left;
+    padding: 0 0 0 10px;
+}
+
+#contact-message-feedback-form .form-item-name
+{
+        padding-left: 0;
+}
+
+#contact-message-feedback-form textarea
+{
+    display: block;
+    margin: 0;
+    padding: 5px 10px 5px;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-submit {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #ec1d3e;
+    border: 1px solid #ec1d3e;
+    min-width: 100px;
+    padding: 5px 20px;
+    border-radius: 4px;
+    -o-transition: .2s ease-in 0s;
+    transition: .2s ease-in 0s;
+    -webkit-transition: .2s ease-in 0s;
+    -moz-transition: .2s ease-in 0s;
+    -ms-transition: .2s ease-in 0s;
+    height: 30px;
+}
+
+/*@media only screen and (max-width: 680px){
+#contact-message-feedback-form{
+ padding: 10px;
+
+}
+}*/
+
+/*@media only screen and (min-width: 991px){
+#contact-message-feedback-form,
+.contact-header{
+ margin-left: 8%;
+
+}
+
+}*/
+
+
+/*******css for home page***************/
+
+
+ul.customer_tier {
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0 -20px;
+    padding-top: 10px;
+}
+
+.partner-head h3{
+        font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    /*padding-bottom: 8px*/;
+    font-family: 'Source Sans Pro';
+}
+
+#home-partner-banner{
+margin-bottom: 3%;
+margin-top: 2%;
+}
+
+#home-partner-banner .partner-head{
+margin-top: 1%;
+margin-right: 3%;
+}
+
+#home-partner-banner .subhead{
+padding-bottom: 0px;
+}
+
+#home-partner-banner .logo-sec{
+    margin-top: 1.7%;
+}
+
+
+.key-partner{
+    /*border-bottom: 1px solid #ddd;*/
+    padding: 5px 0;
+    padding-bottom: 2%;
+}
+
+#home-partner-banner h3{
+margin-top: 0px;
+}
+
+.partner-head{
+max-width: 130px;
+    background: #f6f6f6;
+    position: relative;
+    padding: 10px 15px;
+}
+
+.logo-sec img{
+        max-width: 100%;
+    width: auto;
+    margin-right: 3%;
+}
+
+.partner-head:after{
+    content: "";
+    position: absolute;
+    border: 20px solid transparent;
+    border-left: 20px solid #f6f6f6;
+    right: -40px;
+    top: 0;
+    z-index: 1;
+    display: block;
+}
+
+.api_category_sec {
+    background: #f9f9f9;
+    padding: 55px 0 60px;
+
+}
+.mainhead {
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 16px;
+    font-family: source sans pro;
+    line-height: 40px;
+}
+.p-t-20 {
+    padding-top: 20px !important;
+}
+
+.front-page #block-ibmapi2portal-homebannerblocks{
+    position: absolute;
+ /*   bottom: 30px;*/
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+.front-page{
+    position: relative;
+}
+
+.logged-in.front-page #block-ibmapi2portal-homebannerblocks{
+        top: 33%;
+}
+
+/*.logged-in .header-right{
+    min-height: 74px;
+}*/
+
+.logged-out.front-page #block-ibmapi2portal-homebannerblocks{
+        top: 32%;
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    .logged-in.front-page #block-ibmapi2portal-homebannerblocks{
+        top: 34%;
+    }
+
+    .logged-out.front-page #block-ibmapi2portal-homebannerblocks{
+        top: 33%;
+    }
+} 
+
+/*.logged-out #block-ibmapi95portal-homebannerblocks{
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    -webkit-margin-after: 4%;
+}*/
+
+.logged-out .top-header nav ul li{
+padding-right: 0px!important;
+}
+
+.logged-out .top-header ul li:first-child:after{
+left: 62px;
+}
+
+
+
+.logged-out .upper_header ul li{
+padding: 0px 20px;
+}
+
+.bussiness_motiv_sec li {
+    width: 33.33%;
+    float: left;
+    padding: 0 30px;
+    padding-top: 8px;
+    position: relative;
+}
+
+.bussiness_motiv_desc {
+    position: relative;
+}
+
+.bussiness_motiv_desc h3.subhead{
+font-weight: bold;
+}
+
+.motiv_icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bussiness_motiv_sec {
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0 -30px;
+}
+.bussiness_detail {
+    padding-left: 82px;
+    padding-bottom: 20px;
+}
+.bussiness_motiv_sec li:after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 1px;
+    background: #fff;
+    right: 0;
+    top: 0;
+}
+
+.bussiness_motiv_sec li:last-child:after{
+    display: none!important;
+}
+
+.api_category_icon{
+        max-width: 75px;
+    max-height: 75px;
+    margin: 0 auto 20px;
+}
+
+.api_category_details {
+    margin-top: 15px;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.api_category_details p {
+    font-family: open sans;
+}
+@media only screen and (min-width: 768px){
+.front-page #block-ibmapi2portal-homebannerblocks{
+    position: absolute;
+}
+}
+
+
+@media only screen and (max-width: 991px){
+.bussiness_motiv_sec {
+    margin: 0 -15px;
+}
+.bussiness_motiv_sec li {
+    padding: 0 15px;
+}
+.motiv_icon {
+    position: static;
+}
+.bussiness_detail {
+    padding: 10px 0;
+}
+.right_hand_form_sec {
+    padding: 30px 0;
+}
+.left_hand_banner_sec {
+    width: 320px;
+    padding: 30px;
+}
+}
+
+@media only screen and (max-width: 767px){
+.banner_static_content {
+    position: static;
+    background-color: #000;
+    padding: 15px 0;
+}
+.bussiness_motiv_sec {
+    margin: 0;
+}
+.bussiness_motiv_sec li {
+    float: none;
+    width: 100%;
+    max-width: 75%;
+    padding: 0;
+    padding: 15px 20px;
+}
+.motiv_icon {
+    max-width: 45px;
+    max-height: 45px;
+}
+.form_details {
+    max-width: 340px;
+}
+
+.left_hand_banner_sec {
+    width: 260px;
+    padding: 20px;
+}
+.bussiness_motiv_sec li:after {
+    height: 1px;
+    width: 100%;
+    left: 0;
+    margin: 0 auto;
+    top: auto;
+    bottom: 5px;
+}
+}
+
+
+
+.customer_tier_details {
+    border-width: 1px;
+    border-color: rgb(230, 230, 230);
+    border-style: solid;
+    border-radius: 4px;
+    background: -webkit-linear-gradient( 90deg, rgb(255, 255, 255) 0%, rgb(249, 250, 251) 100%);
+    background: -ms-linear-gradient( 90deg, rgb(255, 255, 255) 0%, rgb(249, 250, 251) 100%);
+    display: block;
+    text-align: center;
+    padding: 40px;
+    -o-transition: .2s ease 0s;
+    transition: .2s ease 0s;
+    -webkit-transition: .2s ease 0s;
+    -moz-transition: .2s ease 0s;
+    -ms-transition: .2s ease 0s;
+
+    }
+
+
+
+    ul.customer_tier li {
+    display: inline-block;
+    width: 33.33%;
+    float: left;
+    padding: 0 20px;
+}
+
+ul.policy_points {
+    padding-left: 0;
+    min-height: 160px;
+}
+
+
+.customer_tier .policy_points li {
+    float: none;
+    width: 100%;
+    display: block;
+    line-height: 26px;
+    text-align: center;
+    padding: 0;
+    font-family: open sans;
+}
+
+.customer_tier_details a.btn {
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    margin-top: 10px;
+    height: 30px;
+    /*WW*/
+}
+
+#front-page .btn{
+    padding: 5px 20px 5px 20px!important;
+}
+
+
+.customer_tier_details:hover a.btn {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
+
+.customer_tier_icon {
+    min-height: 110px;
+    max-height: 120px;
+    max-width: 120px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.btn:hover, .form-submit:hover {
+    background: #cc1431;
+    color: #fff!important;
+}
+
+.customer_tier_details:hover {
+    background: rgb(249, 252, 255);
+    -webkit-box-shadow: 2.5px 4.33px 20px 0px rgba(51, 51, 51, 0.25);
+    box-shadow: 2.5px 4.33px 20px 0px rgba(51, 51, 51, 0.25);
+}
+
+
+
+.container {
+    width: 100%!important;
+    max-width: 1120px;
+    padding: 0 15px;
+}
+
+.home-page-slider img
+{
+        background-size: cover;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+}
+
+.logged-in .create-account-banner-link{
+display: none;
+}
+
+#home-banner-login{
+ 
+   bottom: 31%;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width:768px){
+#home-banner-login{
+   
+   position: absolute;
+}
+
+.banner_static_content{
+    position: absolute;
+    bottom: 10%;
+    margin: 0 auto;
+    width: 100%;
+}
+}
+
+@media only screen and (max-width:768px){
+#home-banner-login{
+   
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+.banner_desc{
+    background-color: #9C9999;
+    padding: 1%;
+}
+}
+
+
+.banner_desc * {
+    color: #fff;
+}
+.largehead {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 44px;
+    margin: 0;
+    font-family: source sans pro;
+    padding-bottom: 0;
+    /* letter-spacing: .5px; */
+}
+
+.font300 {
+    font-weight: 300 !important;
+}
+
+@media only screen and (max-width: 1024px){
+ul.customer_tier {
+    margin: 0 -15px;
+}
+ul.customer_tier li {
+    padding: 0 15px;
+}
+}
+
+
+@media only screen and (max-width: 991px){
+ul.customer_tier {
+    margin: 0 -10px;
+}
+.customer_tier .policy_points li {
+    font-size: 12px;
+    line-height: 20px;
+}
+ul.customer_tier li {
+    padding: 0 10px;
+}
+
+.customer_tier_details {
+    padding: 30px 20px;
+}
+
+.largehead {
+    font-size: 28px;
+   /* font-weight: 700;*/
+    line-height: 32px;
+}
+
+}
+
+@media only screen and (max-width: 767px){
+.customer_tier_details {
+    padding: 30px 15px;
+}
+.customer_tier_details h2 {
+    font-size: 26px;
+}
+.btn {
+    padding: 5px 12px!important;
+    font-size: 12px!important;
+}
+#home-banner-login{
+    
+    top: 10%;
+    bottom: 0px;
+}
+#home-banner-login .container{
+    padding-left: 0px;
+    padding-right: 0px;
+ 
+}
+
+.home-page-slider img
+{
+        min-height: 350px;
+}
+.largehead {
+    font-size: 14px;
+    line-height: 28px;
+    /*padding-bottom: 10px;*/
+}
+.mob_payment_wrapper {
+    max-width: 300px;
+}
+
+/*.mob_payment_wrapper .btn{
+    padding: 2px 12px!important;
+}
+*/
+
+.mobile_payment_sec {
+    background-position: 75% 50%;
+}
+.mainhead {
+    font-size: 24px!important;
+    padding-bottom: 10px;
+    line-height: 28px!important;
+}
+
+home-banner-wrapper {
+    min-height: 350px;
+}
+
+}
+
+@media only screen and (max-width: 600px){
+ul.customer_tier {
+    text-align: center;
+    max-width: 360px;
+    margin: 0 auto;
+}
+ul.customer_tier li {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.customer_tier .policy_points li {
+    margin-bottom: 0;
+}
+.mob_payment_wrapper h2 {
+    padding-bottom: 15px;
+}
+}
+
+@media only screen and (max-width: 480px){
+.largehead {
+    font-size: 24px;
+    line-height: 28px;
+}
+}
+
+@media only screen and (max-width: 420px){
+.mob_payment_wrapper {
+    max-width: 190px;
+}
+.mainhead {
+    font-size: 20px!important;
+    line-height: 24px!important;
+}
+.largehead {
+    font-size: 10px;
+    line-height: 24px;
+}
+}
+
+/************css for user create page**************************/
+
+
+.password-strength__indicator {
+ 
+    background-color: #58F01A!important;
+}
+
+
+.user-create-form #block-ibmapi2portal-help{
+    display: none;
+}
+
+
+/*****************create app page*****************************/
+.create-form{
+    max-width: 800px;
+}
+
+.create-form label{
+    width: 100%;
+}
+
+#create-app-form #add-app-title,#create-app-form #add-app-redirect--url{
+    max-width: 50%;
+}
+
+#create-app-form .form-textarea,#request-client-credentials .form-textarea {
+width: 90%;
+padding: 5px 10px 5px;
+}
+
+
+#edit-cancil
+{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ec1d3e;
+    background-color: #ffffff;
+    border: 1px solid #ec1d3e;
+    min-width: 140px;
+    padding: 5px 22px;
+    border-radius: 4px;
+    -o-transition: .2s ease-in 0s;
+    transition: .2s ease-in 0s;
+    -webkit-transition: .2s ease-in 0s;
+    -moz-transition: .2s ease-in 0s;
+    -ms-transition: .2s ease-in 0s;
+}
+
+.form-textarea
+{
+        border: 1px solid #c5c5c5;
+    border-radius: 4px;
+        padding: 5px 10px 5px;
+}
+
+.clientIDContainer .bx--form-item.form-item.form-group{
+    width: 35rem;
+}
+
+#verify-application-sheet .form-text,#edit-orginization .form-text,
+#create-orginization .form-text,#add-user-form .form-text{
+    max-width: 60%;
+}
+
+
+.user-forgot-password .apic-user-form-text{
+    display: none;
+} 
+
+.user-forgot-password .apic-user-form{
+    padding-left: 0px!important;
+    padding-top: 0px;
+    margin-left: 0px;
+} 
+
+.user-forgot-password .form_head{
+    padding-bottom: 7px;
+}
+
+.user-forgot-password .apic-user-form-footer .apic-user-form-text{
+    padding-left: 0px;
+    text-align: left;
+    display: block!important;
+    padding-top: 0px;
+}
+
+
+.create-form span input{
+    margin-right: 10px;
+}
+
+/*.credentialsActionsManage ul.dropitmenu-submenu{
+    display: none;
+}*/
+
+/*********csss for register user form*************************/
+
+.user-register-section .apic-user-form-subheader{
+    display: none;
+}
+
+.user-register-section .apic-user-form{
+padding-left: 0px;
+margin-left: 0px;
+}
+
+.user-register-section .apic-user-form-inner-wrapper{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.user-register-section .form-item label,.user-register-section .password-suggestions,
+.user-edit-profile .user-form label,#node-forum-form .form .form-item label,
+#node-forum-form label,#application-create-credentials-form label,
+.apic-change-pwd-form .form-item label,
+.user-change-pass-section .apic-change-pwd-form{
+    font-size: 14px;
+    font-weight: 400;
+    color: #231f20;
+    text-transform: capitalize;
+    /*display: block;*/
+}
+
+
+.user-register-section #edit-consumerorg--description{
+display: none;
+}
+
+
+.user-register-section .apic-user-form-wrapper{
+    width: 100%;
+}
+
+.user-register-section .form_head {
+    padding-bottom: 3px;
+}
+
+.user-register-section .apic-user-form{
+    padding-left: 0px;
+}
+
+
+.user-register-section .apic-user-form-inner-wrapper{
+    max-width: 100%;
+}
+
+
+/*.user-register-section .field--name-first-name{
+    max-width: 45%;
+    display: inline-block;
+}*/
+
+/*.user-register-section .field--name-last-name{
+    width: 45%;
+    display: inline-block;
+    max-width: 45%;
+    float: right;
+}*/
+
+
+.user-register-section .apic-user-form-footer .apic-user-form-text{
+    padding-left: 0px;
+    text-align: left;
+    padding-top: 0px;
+}
+
+.password-suggestions ul{
+padding-left: 14px;
+}
+
+/**************css for create and edit organization page 42 and 45*********************/
+
+
+
+
+#application-verify-clientsecret-form,
+#consumerorg-delete-form,
+#session-limit-form{
+    max-width: 500px;
+    margin-left: 8%;
+    margin-bottom: 5%;
+
+
+}
+#session-limit-form{
+
+    margin-bottom: 5.6%;
+
+
+}
+
+#application-verify-clientsecret-form{
+    margin-bottom: 9.6%;
+}
+
+
+
+#consumerorg-delete-form{
+margin-bottom: 10%;
+}
+
+
+.wizard-trail,
+.apicForm .apicFormText,
+.apicForm .apicFormHeader{
+    margin-left: 8%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #808284;
+}
+
+
+
+
+#subscription-wizard-confirm-subscribe .apic-wizard-navigation{
+    margin-top: 5%;
+}
+
+#application-delete-form .form-actions{
+margin-top: 2%;
+}
+
+.apicForm .apicFormWrapper{
+margin-top: 1%;
+}
+
+#application-delete-form .form-actions #edit-submit{
+    margin-right: 2%;
+    height: 30px;
+}
+#consumerorg-create-form .list_head h3 {
+    padding-bottom: 0px !important;
+}
+
+
+
+#application-reset-clientsecret-form{
+    margin-bottom: 15.5%;
+}
+#consumerorg-create-form{
+margin-bottom: 6.5%;    
+margin-top: -1%;
+}
+
+#consumerorg-edit-form{
+margin-bottom: 12.5%;    
+margin-top: -1%;
+}
+
+
+
+#application-reset-clientsecret-form #edit-actions,
+#application-reset-clientid-form #edit-actions,
+#application-update-credentials-form #edit-actions{
+margin-top: 2%;
+}
+
+#application-reset-clientsecret-form #edit-actions input,
+#application-reset-clientid-form #edit-actions input{
+margin-right: 1%;
+}
+
+
+
+
+#edit-cancel
+{
+        display: inline;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ec1d3e;
+    background-color: #ffffff;
+    border: 1px solid #ec1d3e;
+    min-width: 100px;
+    padding: 5px 20px;
+    border-radius: 4px;
+    -o-transition: .2s ease-in 0s;
+    transition: .2s ease-in 0s;
+    -webkit-transition: .2s ease-in 0s;
+    -moz-transition: .2s ease-in 0s;
+    -ms-transition: .2s ease-in 0s;
+}
+
+
+
+#block-ibmapi2portal-pagetitle,
+#block-pagetitle,
+#block-ibmapi2portal-page-title{
+    
+    margin: 0 auto;
+    margin-top: 4%;
+    font-family: source sans pro;
+    margin-bottom: 1.3%;
+    width: 100%!important;
+    max-width: 1120px;
+    padding: 0 15px;
+    text-transform: capitalize;
+
+/*margin-bottom: 2%;*/
+}
+
+#block-ibmapi2portal-pagetitle h1,
+#block-pagetitle h1{
+font-size: 30px!important;
+}
+
+#consumerorg-create-form .form-item input,
+#consumerorg-edit-form .form-item input,
+#application-verify-clientsecret-form .form-item input,
+#application-create-credentials-form .form-item input{
+margin-bottom: 4%!important;
+}
+
+#application-create-credentials-form .form-item{
+width: 85%;
+}
+
+
+#consumerorg-create-form .form-text#edit-orgname,
+#route-consumerorgupdate .form-text#edit-orgname {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    color: #000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    -o-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    position: relative;
+    padding: 5px 10px 5px;
+}
+
+/**********css for user edit profile************************/
+
+/*.user-edit-profile{
+    max-width: 60%;
+   margin-top: 5%;
+}*/
+#user-form{
+    max-width: 360px;
+    margin-left: 9%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+#edit-header-title{
+
+    /*margin-left: 8.5%;*/
+    margin-top: 3%;
+}
+
+.user-edit-profile .left_hand_banner_sec{
+    max-width: 400px;
+    width: 300px;
+}
+
+.user-edit-profile #edit-current-pass--description a{
+    display: block;
+}
+
+.user-edit-profile .form-item-contact label{
+    display: inline-block;
+}
+
+.user-edit-profile  select
+{
+        width: 100%;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.user-edit-profile #edit-codesnippet
+
+{
+widows: 50%;
+}
+
+.user-edit-profile .form-item-timezone select{
+width: 70%;
+display: block;
+}
+
+.user-edit-profile #edit-first-name-wrapper,
+#user-form #edit-first-name-wrapper{
+        max-width: 45%;
+    display: inline-block;
+}
+
+.user-edit-profile #edit-last-name-wrapper,
+#user-form #edit-last-name-wrapper{
+width: 45%;
+    display: inline-block;
+    max-width: 45%;
+    float: right;
+}
+
+#user-form a#edit-delete{
+    font-weight: 400;
+    color: #00b9e3!important;
+    text-decoration: underline!important;
+    line-height: 18px;
+    vertical-align: top;
+}
+
+#user-form .form-item{
+    margin-top: 1rem;
+}
+
+#user-form #edit-actions{
+    margin-bottom: 4%;
+}
+/*********************create application 25**************************/
+
+
+
+
+#application-create-form-one{
+max-width: 700px;
+
+margin-bottom: 6.5%;
+}
+
+#application-create-form-one #edit-title-wrapper,
+#application-create-form-one #edit-application-redirect-endpoints-wrapper
+{
+width: 70%;
+}
+
+
+#application-create-form-one .form-submit,
+#application-update-form .form-submit{
+margin-bottom: 2rem;
+height: 30px;
+}
+
+
+#application-create-form-one .form-item input.form-text,
+#application-create-form-one .form-item textarea{
+    margin-bottom: 2%;
+    width: 100%;
+    padding: 5px 10px 5px;
+}
+
+#application-create-form-two{
+    /*margin-top: 4%;*/
+    margin-bottom: 5%;
+    max-width: 500px;
+    margin-left: 8%;
+}
+
+#application-create-form-two .password-toggle .bx--checkbox-appearance{
+display: none;
+}
+
+#application-create-form-two .form-item{
+    width: 70%;
+}
+
+#application-create-form-two .label{
+    padding-left: 0px;
+}
+
+#application-create-form-two p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #231f20;
+}
+
+#application-create-form-two .clientIDContainer{
+    margin-bottom: 5%;
+}
+
+#application-create-form-two label{
+    color: #231f20;
+}
+
+/*.clientSecretContainer p{
+
+    font-size: 11px;
+color: #808284;
+margin-top: 5px;
+font-weight: 400;
+}*/
+/**********general css****************/
+
+.tnc{
+    padding-bottom: 30px;
+}
+
+
+/****************create forum topic*******************/
+
+
+
+
+.forum_desc
+{
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+
+#node-forum-form  #edit-title-wrapper,
+#node-forum-form #edit-taxonomy-forums-wrapper,
+#node-forum-form #edit-body-wrapper{
+    margin-bottom: 3.5%;
+}
+
+
+#node-forum-form .form-item select{
+        background: #ffffff;
+    border-radius: 5px;
+}
+
+
+#node-forum-form #edit-body-wrapper .field-edit-link{
+    display: none;
+}
+
+
+/*#node-forum-form *******************/
+
+.main-box{
+    font-family: 'Open Sans',
+     sans-serif;
+     border:1px solid #b8b8b8;
+     padding:30px;font-size:12px;
+     margin-bottom: 20px;
+     margin-top: 25px;
+}
+
+.forum-tips-title
+{
+font-family: 'Open Sans';
+font-size:16px;
+}
+
+.main-box h2{
+    font-size: 16px;
+    font-weight: bold;
+
+
+}
+/******************** verify app detail*******************************/
+
+.applicationWrapper{
+    margin: 0px auto;
+    width: 100%!important;
+    max-width: 1120px;
+    padding: 0 15px 2%;
+
+}
+
+.titleInnerWrapper .apicAppIcon img{
+    width: 100%;
+    /* width: 100px; */
+    max-width: 100px;
+    /* height: 100px; */
+    height: 100%;
+    max-width: 100px;
+}
+
+.applicationCredentials .credentialsTable,
+ .applicationSubscriptions .subscriptionsTable{
+border-radius: 5px;
+}
+
+.credentialsActionsManage .dropitmenu-submenu li{
+border-right: 1px solid black;
+    border-color: #00b9e3;
+    padding-left: 10px;
+}
+
+.credentialsActionsManage .dropitmenu-submenu li:last-child {
+border-right: none;
+padding-right: 0px;
+}
+
+.credentialsActionsManage .dropitmenu-submenu li:first-child {
+padding-left: 0px;
+}
+
+
+.dropitmenu-submenu li a,
+.apicAppCheckButton a,
+.credentialsTabs ul li a,
+.apicMyOrgActions a{
+
+   font-size: 13px;
+    font-weight: 400;
+    color: #00b9e3!important;
+    text-decoration: underline!important;
+    /* padding-left: 3px; */
+    line-height: 18px;
+    vertical-align: top; 
+}
+
+
+.apicNewUserWrapper a span{
+
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ec1d3e;
+    border: 1px solid #ec1d3e;
+    
+    padding: 5px 22px;
+    border-radius: 4px;
+    -o-transition: .2s ease-in 0s;
+    transition: .2s ease-in 0s;
+    -webkit-transition: .2s ease-in 0s;
+    -moz-transition: .2s ease-in 0s;
+    -ms-transition: .2s ease-in 0s;
+}
+
+.apicMyOrg .apicUserFirstLastName{
+font-size: 20px;
+    margin-top: 0px;
+}
+
+.apicMyOrg .apicUserMail{
+    font-size: 15px;
+}
+
+.applicationTabs ul li a,
+.organizationTabs ul li a{
+        font-weight: 400;
+    color: #00b9e3!important;
+    text-decoration: underline!important;
+    
+    line-height: 18px;
+    vertical-align: top;
+    font-size: 18px;
+    border-bottom: none!important;
+}
+
+.credentialsTabs ul li a{
+border-bottom: none!important;
+}
+
+a.trigger{
+    display: none;
+}
+.applicationTabs ul li a,
+.organizationTabs ul li a{
+    font-size: 15px;
+}
+
+
+ul.credentialsMenu li ul.dropitmenu-submenu li{
+
+    float: left;
+    padding-right: 15px;
+    display: inline-block;
+
+}
+
+.rightTitle .dropitmenu-submenu li{
+    
+    padding-right: 15px;
+    text-align: right;
+    list-style: none;
+}
+
+.leftTitle .applicationName span{
+    font-family: serif;
+    font-weight: 100px;
+    font-size: 30px;
+    font-weight: 400;
+    
+    color: #808284;
+    text-transform: capitalize;
+}
+
+/*.credentialsTitle{
+     font-size: 20px!important;
+    font-weight: 400!important;
+    color: #231f20;
+    text-transform: capitalize;
+    display: block;
+
+}*/
+
+ .credentialsContent,.apicAppSubscriptions{
+/*border: 1px solid #ddd; */
+margin-bottom: 2%;
+}
+
+.credentialsContent{
+        font-size: 15px;
+    font-weight: bold;
+    color: #231f20;
+    text-transform: capitalize;
+    display: block;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+
+.credentialsContent .form-item input{
+background: #ffffff;
+}
+
+p.field__label{
+font-size: 15px!important;
+    font-weight: 400;
+    color: #231f20;
+    text-transform: capitalize;
+}
+
+.apicAppCheckButton{
+    display: block!important;
+    margin-left: 0px!important;
+}
+
+.clientSecretContainer{
+margin-top: 2%;
+}
+.password-toggle label .children{
+
+}
+
+.password-toggle span.bx--checkbox-appearance{
+    height: 1.5rem;
+    width: 1.5rem;
+    
+    border: 1px solid #ddd!important;
+    border-radius: 3px!important;
+}
+
+
+.applicationWrapper .password-toggle .children{
+padding-left: 0px;
+font-size: 12px;
+}
+
+.subscriptionsTitle,
+.credentialsTitle{
+        font-size: 15px!important;
+    font-weight: bold!important;
+    color: #231f20;
+    text-transform: capitalize;
+    display: block;
+}
+
+.credentialsMenu .editCredentials li a{
+        border-right: 1px solid black;
+    border-color: #00b9e3!important;
+    padding-right: 15px;
+}
+
+/*.editCredentials li:last-child a{
+border: none;
+}*/
+
+.subscriptionsContent tr th{
+    font-size: 12px!important;
+    font-weight: 400;
+    color: #231f20;
+    text-transform: capitalize;
+}
+
+.font-open-serif{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-sans-serif{
+    font-family: sans-serif;
+}
+
+/*.user-heading{
+    font-family: open sans;
+    font-weight: 600;
+}
+*/
+.applicationName,
+.font-open-sans,
+p,a{
+    font-family: open sans;
+}
+
+.user-heading{
+font-family: source sans pro;
+font-weight: 300px!important;
+}
+
+
+/*************css for change password*****************/
+
+
+
+.user-change-pass-section .form_head{
+    padding-bottom: 0px;
+}
+
+
+.node--type-product .summary{
+    display: none;
+}
+
+
+/**************css for edit account**************************/
+
+
+.user-edit-profile #user-form #edit-contact{
+        border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+
+.user-edit-profile #user-form #edit-timezone{
+    padding-top: 7%;
+}
+
+
+.user-edit-profile #user-form .field--name-codesnippet,
+.user-edit-profile #user-form .edit-language{
+     border-bottom: 1px solid #e5e5e5;
+    
+    padding-bottom: 7%;   
+}
+
+
+/*****************css for clienty feedback block*******************/
+
+.client-feedback-body{
+    max-width: 650px;
+    font-family: source sans pro;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 38px;
+    
+}
+
+.client-feedback-body p{
+    font-family: source sans pro;
+}
+
+.client-feedback-wrapper{
+    max-width:700px; 
+}
+
+.client-feedback h5{
+    max-width: 650px;
+}
+
+/****************app listing page*****************************/
+
+
+.api-product-sec .apicCardIcon{
+    float: left;
+}
+
+.api-product-sec .apicAppCardMain{
+    display: inline-block;
+    float: left;
+    padding-left: 5%;
+}
+
+.api-product-sec{
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+
+.api-product-sec article:hover {
+    box-shadow: 0px 0px 33px 0px rgba(1, 2, 2, 0.22);
+}
+
+.api-product-sec article{
+    padding: 30px;
+}
+.api-product-sec .apicAppName{
+        font-weight: bold;
+    color: #000000;
+    font-family: source sans pro;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.application-view .views-exposed-form{
+    margin-right: 5%;
+    float: right;
+}
+
+.application-view header{
+        margin-bottom: 3%; 
+}
+
+.api-product-sec .apicAppFooter{
+    display: none;
+}
+
+
+
+
+/***********forum listing page*********************/
+
+.forum-content ul.forum-actions-wrapper li a{
+    color: #ffffff !important;
+    line-height: 18px;
+    vertical-align: top;
+    text-decoration: none!important;
+}
+
+
+.forum-content ul.forum-actions-wrapper{
+    
+    list-style: none;
+    margin-bottom: 3%;
+    padding-left: 0px;
+}
+
+
+.forum-content .forum-actions-wrapper li a{
+        color: #fff!important;
+    background-color: #ec1d3e;
+    border: 1px solid #ec1d3e;
+    text-decoration: none!important;
+    min-width: 140px;
+    padding: 5px 20px 5px 20px!important;
+    border-radius: 5px;
+}
+
+.forum-content #block-ibmapi2portal-content{
+margin-bottom: 5%!important;
+}
+
+.forum-content #block-ibmapi2portal-content table{
+    width: 100%;
+   /* margin-left: 8%*/
+}
+
+.forum-content #block-ibmapi2portal-content{
+max-width: 1120px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+.forum-content #block-ibmapi2portal-content table tr{
+
+    border-bottom: 1px solid #DAD3D2;
+}
+
+.forum-content #block-ibmapi2portal-content table tr td,
+.forum-content #block-ibmapi2portal-content table th{
+
+padding: 15px;
+padding-left: 35px;
+}
+
+.forum-content #block-ibmapi2portal-content table tr:hover
+{
+box-shadow: 0px 0px 33px 0px rgba(1,2,2,0.22);
+}
+/*.forum-content #block-ibmapi43portal-content table tr:nth-of-type(even){
+    color: #000000;
+}*/
+
+.forum-content #block-ibmapi2portal-content th{
+    color: #808284!important;
+}
+
+
+.forum-content #block-ibmapi2portal-content table thead tr{
+    background-color: #D3D3D3;
+    color: #000000;
+}
+
+.forum-content #block-ibmapi2portal-content table tr a{
+   color: #00b9e3 !important;
+    line-height: 18px;
+    vertical-align: top;
+    text-decoration: underline;
+}
+
+.forum-content #block-ibmapi2portal-content table thead tr th{
+        color: #808284;
+}
+
+.forum-content #block-ibmapi2portal-content table thead tr{
+        font-size: 20px;
+}
+
+.forum-content #block-ibmapi2portal-content table tbody{
+    font-size: 17px;
+}
+
+.forum-content #block-ibmapi2portal-content table tbody tr td:first-child{
+    position: relative;
+}
+
+#product-que-icon{
+    position: absolute;
+    left: 5px;
+    margin-top: 2px;
+    max-width: 20px;
+    max-height: 20px;
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-image: url(../images/question_icon.png);
+    background-repeat: round;
+}
+/*****************mmanage organization******************/
+
+
+div.apicMyOrg{
+    margin: 0px auto;
+    width: 100%!important;
+    max-width: 1120px;
+    padding: 0 15px;
+    /*padding-left: 0px;*/
+    /*margin-left: 7%;*/
+}
+
+.apicMyOrgHeader h2{
+    font-family: source sans pro;
+    text-transform: capitalize;
+}
+
+#consumerorg-invite-user-form #edit-role--wrapper--description{
+    display: none;
+}
+
+.apicMyOrg .field.organizationMembers,
+.ibmapimOrgAnalytics .analyticsWidgetContainer{
+    padding: 0px;
+}
+
+.apicMyOrgHeader .organizationMenu ul{
+    list-style: none;
+}
+
+.organizationMembers{
+margin-bottom: 4%;
+}
+
+
+.organizationMembers .apicMyOrgMembers tr th{
+        font-size: 12px!important;
+    font-weight: 400;
+    color: #231f20;
+    text-transform: capitalize;
+}
+
+.apicMyOrgMembers table td ul{
+list-style: none;
+}
+
+.apicMyOrg header .rightTitle ul{
+list-style: none;
+}
+
+.apicMyOrg header .rightTitle ul li{
+padding-right: 0px;
+}
+/*#appAnalyticsSummary nav ul.bx--tabs__nav li a{
+    font-size: 15px;
+    font-weight: 100;
+}*/
+/***************api product detail******************/
+
+.node--type-product .apicProduct .apicProductHeader{
+    padding-left: 0px;
+        padding-top: 2%;
+    padding-bottom: 2%;
+    background: url(../images/one_stop_mobile_banner.png);  
+    /*margin-left: 8%;*/
+}
+
+.productApiWrapper header.titleSection{
+padding: 0%;
+background: url(../images/one_stop_mobile_banner.png);
+padding-top: 2%;
+padding-bottom: 2%;
+}
+
+.productApiWrapper .labelText{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.productApiWrapper #innerWrapper .apiContent .bx--text-input{
+    font-size: 25px;
+    font-family: source sans pro;
+}
+
+.productApiWrapper ul.apiContent .tocHeader a,
+.productApiWrapper ul.apiContent .tocItem a{
+font-size: 15px!important;
+font-weight: 400;
+color: #00b9e3 !important;
+text-decoration: underline !important;
+line-height: 18px;
+vertical-align: top;
+}
+
+
+
+.productApiWrapper .subscribeButton a{
+        /* display: inline-block; */
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #ec1d3e;
+    border: 1px solid #ec1d3e;
+    /* min-width: 140px; */
+    padding: 5px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.node--type-product .apicProduct .apicProductHeader .apicProductTitle{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*.productApiWrapper .titleSection .rightTitle{
+    margin-right: 8%;
+}*/
+
+
+.apicProductTitle .field-name-title{
+font-weight: 100!important;
+}
+
+.productApiWrapper .productName{
+    font-family: source sans pro;
+}
+
+.node--type-product .apicProduct .apicProductHeader .breadcrumb,
+.productApiWrapper header .breadcrumb,
+.productApiWrapper header .br-widget{
+display: none;
+}
+
+.node--type-product .apicProductHeader .apicProductIcon{
+           border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    border: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+
+.node--type-product .apicProductHeader .field-name-title span{
+    font-family: source sans pro;
+}
+
+.node--type-product header .apicProductIcon{
+background-color: #ffffff;
+}
+
+
+.planSubscribe .button,
+.planSubscribe button{
+        display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #ec1d3e;
+    border: 1px solid #ec1d3e;
+    min-width: 140px;
+    padding: 5px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+
+.planTableSelector .linkLabel,
+.apicPlansTableBody .apiName{
+    color: #00b9e3 !important;
+    text-decoration: underline !important;
+    line-height: 18px;
+    vertical-align: top;
+    font-size: 15px;
+}
+
+
+.planName{
+    font-family: source sans pro;
+}
+
+.apicApiTeaser h4 a{
+        color: #00b9e3 !important;
+    text-decoration: underline !important;
+    line-height: 18px;
+    vertical-align: top;
+}
+
+
+.apicProductSummary{
+    font-family: open sans;
+}
+
+.apicProduct .breadcrumb a{
+    color: #00b9e3 !important;
+    text-decoration: underline !important;
+    line-height: 18px;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.field.plans .subHeading p{
+    font-family: open sans;
+    font-size: 20px;
+}
+
+
+.apicProductHeader .votingapi-widgets .br-widget,
+.apicProductTitleText #vote-form {
+    display: none;
+}
+
+
+.node--type-product .notLoggedIn p a{
+        color: #00b9e3 !important;
+}
+
+
+.productApiWrapper .operationDisplay nav ul li a{
+font-size: 13px;
+}
+
+.operationTitle h2,
+.overviewHeader h2,
+.definitionsHeader h2{
+    font-family: source sans pro;
+}
+
+
+.apicSubscribeResultFollowup a,
+#subscription-wizard-choose-application .apicNewAppWrapper a{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #ec1d3e;
+    border: 1px solid #ec1d3e;
+    min-width: 140px;
+    padding: 5px 22px;
+    border-radius: 4px;
+    margin-right: 2%;
+}
+
+.apicSubscribeResultFollowup a{
+min-width: auto;
+}
+
+#subscription-wizard-choose-application .apicNewAppWrapper a{
+    min-width: auto;
+}
+
+
+
+#subscription-wizard-choose-plan,
+#subscription-wizard-choose-application,
+.apicSubscribeResultFollowup{
+    margin-bottom: 3%;
+}
+
+#subscription-wizard-choose-application .apic-wizard-navigation{
+    margin-top: 2%;
+
+}
+
+#subscription-wizard-choose-application{
+    margin-left: 8%;
+}
+
+#subscription-wizard-choose-application .apicNewAppWrapper
+{
+        margin-right: 3%;
+    margin-bottom: 1%;
+}
+
+
+.apicWizardHeader{
+    display: none;
+}
+
+
+
+/*********************css for node add forum************************/
+
+
+#forum-sidebar{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 13%;
+    padding: 15px;
+}
+
+
+#forum-points{
+list-style: none;
+padding-left: 0px;
+}
+
+
+
+#forum-points li h4{
+    font-weight: 300;
+    color: #000000;
+}
+
+#forum-side-head{
+display: inline-block;
+}
+
+/******css for my organization*******************/
+
+.apicMyOrg .apicMyOrgActions{
+margin-top: 3%;
+}
+
+
+#bell-section,
+.top-header nav ul li:first-child{
+    position: relative;
+}
+
+article .apicProductBody{
+   width: 100%!important;
+    max-width: 1120px;
+    margin: 0 auto; 
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#subscription-wizard-choose-plan input#edit-submit{
+    margin-left: 8%;
+    height: 30px;
+}
+
+
+.apicSubscribeResultFollowup{
+padding-left: 15px;
+}
+
+.apicForm .apicSubscribeSummary{
+    margin-top: 2%;
+    margin-bottom: 2%;
+} 
+
+
+.applicationWrapper header .leftTitle .breadcrumb a{
+    color: #fff;
+    background-color: #ec1d3e;
+    border: 1px solid #ec1d3e;
+    min-width: 140px;
+    padding: 5px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+article .applicationWrapper{
+    margin: 0px auto;
+    width: 100%!important;
+    max-width: 1120px;
+    /*padding: 0 15px;*/
+}
+
+/*#search-border{
+        position: absolute;
+    height: 30px;
+    width: 1px;
+    background: #cac9c9;
+    right: 35px;
+    top: 20px;
+}*/
+
+/*****************css for consumer form************************/
+
+#consumerorg-delete-form #edit-cancel{
+display: block;
+    max-width: 65px;
+    margin-left: 0%;
+
+}
+
+
+#consumerorg-delete-form input,
+#consumerorg-delete-form a{
+    display: inline-block;
+    /*float: left;*/
+
+}
+
+#consumerorg-delete-form #edit-actions{
+margin-top: 3%;
+}
+
+
+#consumerorg-delete-form{
+    margin-bottom: 15.8%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #808284;
+}
+
+
+#edit-cancel{
+    text-decoration: none;
+}
+
+#edit-application-redirect-endpoints-wrapper table tbody{
+border: none;
+}
+
+
+#application-redirect-endpoints-add-more-wrapper .form-item .clearfix{
+    border: none;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+
+/************css for subscribe pages**************************/
+
+
+.wizard-trail{
+    display: none;
+}
+
+#subscription-wizard-choose-application{
+    margin: 0px auto;
+    width: 100%!important;
+    max-width: 1120px;
+    padding: 0 15px;
+}
+
+
+#subscription-wizard-confirm-subscribe .form-item{
+margin-bottom: 1%;
+}
+
+.apicForm .apicFormHeader{
+    font-weight: bold;
+}
+
+.apicForm .apic-user-form-wrapper{
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 9.7%;
+}
+
+
+#subscription-wizard-choose-application .bx--card{
+width: 100%;
+}
+
+#subscription-wizard-choose-application .bx--card-footer{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#subscription-wizard-choose-application{
+    margin-bottom: 4%;
+}
+
+article .apicProduct div.apis{
+    width: 45%;
+    display: inline-block;
+    float: left;
+}
+
+article .apicProduct div.plans{
+    /*width: 50%;*/
+    display: inline-block;
+    float: right;
+}
+
+article .apicProduct div.comments
+{
+    display: inline-block;
+    width: 100%;
+}
+
+/*article .apicProduct div.plans h3.label{
+    display: none;
+}*/
+
+article .apicProduct div.apis,
+article .apicProduct div.plans{
+    margin-top: 0px!important;
+}
+
+
+article .apicProduct div.apis .apicApiTeaser a h4{
+margin-top: 0px;
+    color: #00b9e3 !important;
+    text-decoration: underline;
+}
+
+
+article .apicProduct div.plans .planComparisonTable{
+float: left;
+}
+
+
+article .apicAppCardMain .apicAppName span{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+article .apicAppCardMain div.bx--about__title--name{
+width: 100%;
+/*text-align: center;*/
+}
+
+.right_hand_form_sec #ibm-apim-password-policy-status{
+    padding: 0px;
+        background-color: snow;
+    border: none;
+}
+
+.right_hand_form_sec #ibm-apim-password-policy-status div{
+    font-size: 14px;
+    font-weight: 400;
+    color: #808284;
+    margin-bottom: 0;
+}
+
+.user-register-section .password-suggestions{
+display: none!important;
+}
+/*article div.apicAppCard{
+padding-top: 20px;
+}*/
+
+
+#subscription-wizard-choose-application .apicSubAppCard{
+max-width: 142px;
+}
+
+#subscription-wizard-choose-application .apicAppFooter button{
+        color: #00b9e3!important;
+    text-decoration: underline!important;
+    line-height: 18px;
+    vertical-align: top;
+}
+
+.op-product-view article{
+    max-width: 500px;
+    width: 100%
+}
+
+#modal_application_create_form textarea{
+max-width: 100%;
+}
+
+#modal_application_create_form .form-item{
+    margin-bottom: 5%;
+}
+
+#modal_application_create_form .clearfix{
+    padding-left: 0px;
+    border: none;
+    margin-top: 5%;
+}
+
+#modal_application_create_form input.form-text{
+width: 250px;
+}
+
+#modal_application_create_form table tbody{
+border: none;
+}
+
+
+.ui-dialog .ui-dialog-buttonpane{
+    float: left;
+    padding-left: 1em;
+    border: none;
+}
+
+
+/************miscineallnious css*********************/
+
+.logged-in #get-start #create-account {
+display: none;
+}
+
+ul.applicationMenu ul li{
+float: left;
+border-right: 1px solid black;
+    border-color: #00b9e3;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+
+.applicationWrapper .credentialsHeader .credentialsActionsAdd a{
+vertical-align: text-bottom;
+}
+
+.applicationWrapper .credentialsHeader .credentialsActionsAdd a svg{
+vertical-align: top!important;
+}
+
+
+ul.applicationMenu ul li:last-child{
+border-right: none;
+padding-right: 0px;
+}
+
+
+.subscriptionsContent tr td ul.subscriptionMenu ul li{
+float: left;
+padding-right: 15px;
+border-right: 1px solid black;
+    border-color: #00b9e3;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.subscriptionsContent tr td ul.subscriptionMenu ul li:last-child{
+border-right: none;
+padding-right: 0px;
+}
+
+#application-unsubscribe-form{
+    margin-bottom: 15.1%;
+    margin-left: 8%;
+}
+
+#application-unsubscribe-form #edit-actions{
+margin-top: 2%;
+}
+
+
+#front-page div[role=contentinfo] {
+border: 1px solid black;
+}
+
+
+
+/*****************forgot password page*********************************/
+
+.user-forgot-pass-section .apic-user-form,
+.user-forgot-pass-section .apic-user-form .apic-user-form-text{
+padding-left: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.user-forgot-pass-section .apic-user-form-footer .apic-user-form-text{
+text-align: left;
+}
+
+.user-forgot-pass-section .apic-user-form-footer .apic-user-form-text a{
+padding-left: 0px;
+}
+
+.user-forgot-pass-section .apic-user-form-footer{
+    margin-top: 3%;
+}
+
+
+.user-forgot-pass-section .form_head{
+    padding-bottom: 8px;
+}
+
+
+
+
+
+/*.logged-out #home-banner-login .banner_static_content{
+    margin-top: 10%;
+}*/
+
+
+.operationParameters .bx--accordion__title{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+
+.field.plans .subHeading{
+    padding-top: 4px;
+}
+
+
+.apicProductSummary > div > div:first-child{
+font-weight: bold;
+}
+
+
+
+.apicProduct .apicProductBody .label{
+color: #000000;
+padding-left: 0px;
+font-weight: 400;
+padding-bottom: 0px;
+display: block;
+text-align: left;
+}
+
+
+.apicProduct .apicProductBody .apicProductApiList li{
+    margin-left: 0px;
+}
+
+
+
+.apicProduct .apicProductBody .apis{
+margin-top: 3%!important;
+}
+
+
+
+.apicProduct .apicProductBody .plans{
+margin-top: 3%!important;
+}
+
+
+
+.apicProduct .apicProductBody .subHeading{
+    display: none;
+}
+
+
+/*.apicMyOrg .organizationTabs ul li.selected a{
+border-bottom: 4px solid #ddd!important;
+}
+*/
+
+.apicMyOrg .organizationTabs ul li a:hover{
+border-bottom: 4px solid #ddd!important;
+}
+
+
+.apicMyOrg .apicMyOrgMembers tr .orgApicUser{
+    margin-top: 2%;
+}
+
+
+#contact-message-feedback-form .form-item-terms label
+{
+    text-transform: none;
+}
+
+
+
+#consumerorg-create-form #edit-actions a,
+#consumerorg-invite-user-form #edit-actions a,
+#consumerorg-resend-invitation-form #edit-actions a{
+margin-left: 1%;
+}
+
+.parameterName{
+font-size: 12px!important;
+}
+
+
+.parameterIn{
+font-size: 13px!important;
+}
+
+.parameterDescriptionContainer .schema,
+.generateButton{
+font-size: 15px!important;
+}
+
+.parameterDescriptionContainer div{
+    font-size: 13px;
+}
+
+.codeSnippetLanguage select{
+font-size: 15px;
+}
+
+.bx--module__header .bx--module__title,
+.bx--accordion .bx--accordion__title{
+font-size: 13px;
+}
+
+
+.parameterOuter .bx--form-item input{
+font-size: 15px;
+}
+
+
+.clientID .labelText{
+font-size: 12px!important;
+}
+
+#clientid-select{
+    font-size: 15px!important;
+}
+
+ul.products-pay-details li article:hover,
+.app-listing .api-product-sec article{
+    cursor: pointer;
+}
+
+
+.application-view article{
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 15rem;
+    background-color: #fff;
+    border: 1px solid #dfe3e6;
+}
+
+
+
+
+div[role="contentinfo"] {
+    
+    background: #1d3444;
+    color: #ffffff;
+    padding: .5% 0% .5% 7.7%;   
+}
+
+
+
+div[role="contentinfo"] ul{
+    list-style: none;
+    padding-left: 0%;
+    margin-bottom: 0px;
+}
+
+.right_hand_form_sec div[role="contentinfo"]{
+        background: none;
+    color: #333333;
+    padding: 0px;
+}
+
+
+article[typeof="schema:Discussion"]{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    margin-bottom: 3%;
+} 
+
+.user-account #main{
+   max-width: 1120px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    /*margin-bottom: 3%;*/
+    position: relative;
+}
+/*.user-account #main
+{
+margin-top: 2%;
+}*/
+
+/*article[typeof="schema:Person"]{
+    margin-top: 2%;
+}*/
+article[typeof="schema:Discussion"] #edit-actions{
+    margin-top: 2%;
+}
+
+article[typeof="schema:Discussion"] div a{
+    color: #00b9e3!important;
+    font-size: 20px;
+
+}
+
+/*article[typeof="schema:Discussion"] article[typeof="schema:Person"]{
+
+max-width: unset;
+    padding: 0;
+    margin: 0;
+
+}
+*/
+
+
+#application-upload-image-form #edit-actions input{
+margin-right: 1%;
+}
+
+
+.user-account article[typeof="schema:Person"] div div:first-child{
+    font-weight: bold;
+}
+
+
+.user-account article[typeof="schema:Person"] .form-item h4{
+color: #dddddd;
+font-weight: bold;
+font-size: 25px;
+font-family: source sans pro!important;
+padding-left: 0!important;
+padding-bottom: 0px;
+margin-bottom: 0px;
+display: block;
+text-align: left;
+margin-top: 0px;
+}
+
+#user-edit-link{
+    display: none;
+}
+
+.application-view .views-exposed-form .apicNewApp{
+text-decoration: none;
+}
+
+
+
+.application-view .apicFade{
+max-width: 300px;
+margin-top: 4%;
+position: inherit;
+}
+
+.application-view .apicAppName{
+    vertical-align: top;
+}
+
+#forum-header{
+    margin-top: 5.5%;
+    margin-bottom: 3%;
+}
+
+#forum-header h1{
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width: 696px){
+
+.application-view .api-product-sec article{
+    padding-top: 0px;
+}
+
+.application-view .apicAppCardMain{
+    text-align: center;
+}
+.application-view .apicCardIcon{
+    float: none;
+}
+.application-view .apicFade{
+    margin-top: 0px;
+}
+
+.application-view .apicAppCard{
+    padding-top: 10px;
+}
+
+.api-product-sec .apicAppCardMain{
+    display: block;
+    float: none;
+}
+
+}
+
+
+
+.page-node-add-forum #main,
+.page-contact #main{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.page-node-add-forum #content,
+.page-contact #content{
+    padding-left: 0px!important;
+}
+
+
+.page-node-add-forum #block-ibmapi2portal-page-title{
+padding-left: 0px;
+}
+
+
+.page-node-add-forum #sidebar-second,
+.page-contact #sidebar-second{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+@media only screen and (min-width:768px){
+.page-node-add-forum #content,
+.page-contact #content{
+width: 70%;
+}
+
+
+#node-forum-form,
+#contact-message-feedback-form{
+        /*margin-left: 8%;*/
+    max-width: 90%;
+    margin-bottom: 4rem;
+}
+
+
+.page-node-add-forum #sidebar-second,
+.page-contact #sidebar-second{
+    width: 30%;
+}
+.user-account #content{
+width: 38%;
+}
+
+.user-account .sidebar{
+    width: 62%;
+}
+}
+
+
+.page-node-type-application .applicationDescription div:first-child div:first-child{
+font-size: 15px;
+}
+
+
+.user-account article[typeof="schema:Person"] div div:first-child{
+font-size: 25px;
+font-family: source sans pro;
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+    font-weight: 400;
+}
+
+
+
+.user-account article[typeof="schema:Person"] div div:nth-child(2){
+    font-size: 30px;
+    font-family: source sans pro;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+
+/*.user-account #main{
+    border: 1px solid black;
+    border-color: #ddd;
+    padding: 1%;
+}*/
+
+
+.user-account article[typeof="schema:Person"] .form-item.form-no-label{
+font-size: 25px;
+    font-weight: 600;
+    font-family: source sans pro;
+    color: #dddddd;
+    text-transform: capitalize;
+}
+
+
+.user-account #content:hover,
+#subscription-wizard-choose-application article:hover
+{
+    box-shadow: 0px 0px 33px 0px rgba(1,2,2,0.22);
+}
+
+#subscription-wizard-choose-application article .bx--about__title--name{
+text-align: center;
+} 
+
+
+#subscription-wizard-choose-application article .apicFade div:first-child div:first-child{
+font-weight: bold;
+text-align: center;
+font-family: open sans;
+}
+
+#subscription-wizard-choose-application article .apicFade{
+    position: inherit;
+}
+
+#subscription-wizard-choose-application article .apicAppCard{
+    min-height: 90px;
+    padding-top: 5%;
+}
+
+#subscription-wizard-choose-application article .bx--about__icon{
+    margin: 0 auto;
+}
+
+#subscription-wizard-choose-application article .apicAppName{
+    text-transform: capitalize;
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+.header-right nav ul li{
+margin-bottom: -27px;
+}
+}
+
+
+@media only screen and (max-width: 601px){
+.header-right nav ul li{
+margin-bottom: -6px;
+}
+}
+
+
+
+
+
+
+.right_hand_form_sec .user-login-section div[role=alert] ul li a{
+    display: none;
+}
+
+
+#user-edit-section{
+display: none;
+}
+
+.user-account #user-edit-section{
+    display: block;
+      padding-left: 22%;
+}
+
+
+#forum-sidebar:hover{
+    box-shadow: 0px 0px 33px 0px rgba(1,2,2,0.22);
+}
+
+.user-account article[typeof="schema:Person"] div div:first-child{
+    display: none;
+}
+
+.user-account article[typeof="schema:Person"] > div:nth-child(2){
+     display: inline-block;
+     float: left;
+     padding-right: 1%;
+}
+
+.user-account article[typeof="schema:Person"] > div:nth-child(3){
+     display: block;
+
+}
+
+.user-account article[typeof="schema:Person"] {
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+
+.user-forgot-pass-section .apic-user-form{
+    margin-left: 0px;
+    padding-right: 0px;
+    max-width: 100%!important;
+    margin-top: 0px!important;
+}
+
+.page-application-new #edit-unpublish-on-wrapper{
+margin-bottom: 2%;
+}
+
+
+
+@media only screen and (max-width: 767px){
+#forum-sidebar{
+margin-bottom: 2%;
+}}
+
+.faq-listing #faq-que-icon{
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/question_mark.png);
+    background-repeat: no-repeat;
+}
+
+
+.showComparisonTable:hover,
+.api-product-sec article .bx--about__title--name a:hover,
+article .apicProduct .apicPlansTable .apicPlansTableBody .apicTwistieTitle a:hover,
+article a.showPlans:hover{
+    text-decoration: none!important;
+}
+
+
+#consumerorg-resend-invitation-form{
+        max-width: 500px;
+    margin-left: 8%;
+    margin-bottom: 13.2%;
+}
+
+#consumerorg-resend-invitation-form #edit-actions{
+    margin-top: 3%;
+}
+
+article .apicProduct .comments{
+background-color: #eeeeee;
+padding: 1%;
+}
+
+article .apicProduct .comments img{
+max-height: 64px;
+max-width: 64px;
+}
+
+.getStartedTitle{
+    visibility: hidden;
+}
+
+.getStartedHeader{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.getStartedHeader .homepageLink a{
+        color: #00b9e3;
+}
+
+.apicProduct .apicProductBody{
+    padding-right: 0px;
+}
+
+.user-account #content{
+    border: 1px solid black; 
+     border-color: #ddd; 
+}
+
+
+.user-account #content{
+    padding-bottom: 2%;
+    padding-left: 6%;
+    padding-top: 2%;
+    margin-top: 5%;
+
+}
+
+#user-side-block{
+    display: none;
+}
+
+.user-account #user-side-block{
+    display: block;
+}
+/*#product-que-icon{
+    float: left;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/question_icon.png);
+    background-repeat: no-repeat;
+}*/
+
+
+.right_hand_form_sec div[role="contentinfo"] {
+    background-color: #ff0000!important;
+    
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.right_hand_form_sec  div[role="contentinfo"] *,
+.right_hand_form_sec  div[role="contentinfo"]{
+    color: #ffffff!important;
+    font-weight: bold;
+}
+
+.fb-share-button a{
+font-size: 17px;
+    font-weight: 400;
+    color: #00b9e3!important;
+    font-weight: bold;
+text-decoration: underline;
+
+}
+
+#application-redirect-endpoints-values .field-label h4{
+margin-bottom: 0px;
+}
+
+
+.field--name-application-redirect-endpoints .form-item .clearfix{
+    padding-left: 0px;
+    border: none;
+}
+
+.field--name-application-redirect-endpoints .field-multiple-table tbody{
+    border: none;
+}
+
+.user-account #sidebar-second{
+padding-right: 0px;
+}
+
+
+.edit-goto{
+margin-left: 5%;
+display: none;
+}
+
+.user-account .edit-goto{
+    display: block;
+} 
+
+.blog-page-listing .list_wrapper{
+    padding: 0px;
+}
+
+@media only screen and (min-width: 768px){
+#home-banner-login .banner_desc{
+    max-width: 650px;
+}
+}
+
+
+@media only screen and (max-width: 588px){
+.header-right nav ul li:first-child a{
+padding-left: 0px;
+}
+}
+
+
+.node .apicMyOrg .apicMyOrgHeader{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.overviewBody .valueText{
+    font-size: 13px!important;
+}
+
+
+.applicationSubscriptions .subscriptionsTable .subscriptionsContent table tbody tr td{
+    font-size: 11px;
+}
+
+.page-user-delete #content{
+    max-width: 500px;
+    margin-left: 7%;
+    margin-bottom: 20;
+    margin-bottom: 14.6%;
+    margin-top: 1%;
+}
+
+.page-user-delete #edit-actions{
+margin-top: 2%;
+}
+
+.page-contact #content,
+.page-application-new #content,
+.page-myorg-create #content,
+.page-myorg-edit #content,
+.page-myorg-invite #content,
+.page-myorg-delete #content{
+   max-width: 1120px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.page-application-new #block-ibmapi2portal-page-title,
+.page-myorg-create #block-ibmapi2portal-page-title,
+.page-myorg-edit #block-ibmapi2portal-page-title{
+padding-left: 0px;
+}
+
+#consumerorg-create-form,
+#consumerorg-edit-form,
+#consumerorg-delete-form{
+ max-width: 500px;
+ margin-left: 0px;
+ margin-bottom: 11%;
+}
+
+.logged-in #bell-section{
+    display: none;
+}
+
+#bell-section{
+    padding-top: 2%;
+}
+
+.upper_header li a.btn{
+    padding: 3%;
+    color: #ffffff;
+}
+
+
+.avail_platform{
+    display: none;
+}
+
+.footer_sec .smallhead{
+font-size: 13px!important;
+font-weight: bold!important;
+}
+
+
+.feature-home-product .views-exposed-form{
+display: none;
+}
+
+.feature-home-product header{
+    text-align: center;
+    display: block;
+    max-width: 100%;
+}
+
+.feature-home-product .item-list{
+display: grid;
+}
+
+.feature-home-product footer{
+    text-align: center;
+    padding-top: 2%;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+.getStartedHeader .homepageLink{
+display: none;
+}
+
+.exploreDiv:hover{
+box-shadow: 0px 0px 33px 0px rgba(1,2,2,0.22);
+}
+
+.page-myorg-edit #content{
+    margin-bottom: 17.3%;
+    margin-top: 3%;
+}
+
+.page-myorg-create #content{
+        margin-bottom: 12.2%;
+}
+
+.user-account-edit .sidebar{
+display: none;
+}
+
+
+.user-account .left_hand_banner_sec{
+    height: 680px;
+    max-height: 100%;
+}
+
+.page-contact #forum-sidebar{
+text-align: center;
+background: rgba(76, 175, 80, 0.1);
+}
+
+.user-account .sidebar{
+padding-left: 0px;
+}
+
+
+.logged-in #account-edit-link{
+display: none;
+}
+
+#application-create-form-one{
+    position: relative;
+}
+
+
+#application-create-form-one #edit-actions input{
+    position: absolute;
+    right: 0;   
+}
+
+
+
+#bell-section a {
+    border: 1px solid #ddd;
+    padding: 10% 20%;
+    border-radius: 5px;
+}
+
+#get-start-home-block{
+    min-height: 370px;
+    position: relative;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#get-list-home{
+    list-style: none;
+}
+
+.logged-in #get-list-home li{
+    width: 45%;
+    
+    min-height: 180px;
+    display: inline-block;
+    
+    
+}
+
+.logged-in #get-access-link{
+display: none!important;
+}
+
+#get-list-home{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#get-list-home li{
+    border: 1px solid #fff;
+    border-radius: 7px;
+    display: inline-block;
+    
+    /*opacity: .5;*/
+    position: relative;
+    
+}
+
+.logged-in #build-app-link{
+    float: left;
+}
+
+.logged-in #go-live-link{
+    float: right;
+}
+
+
+#get-list-home li h3{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    text-align: center;
+    min-height: 80px;
+
+}
+
+
+#get-div-footer a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid #fff;
+    
+    border-radius: 2px;
+    padding: 1%;
+}
+
+#get-list-home li h2{
+    font-size: 24px;
+}
+
+#get-list-home li h3{
+    max-height: 100px;
+    overflow: hidden;
+}
+
+
+#get-div-footer a{
+    position: absolute;
+    left: 40%;
+    bottom: 5%;
+}
+
+
+.logged-out #get-list-home li {
+    width: 31%;
+    min-height: 180px;
+    float: left;
+    margin-right: 2%;
+}
+
+.product-view .apicProductCardVersion{
+display: none;
+}
+
+@media only screen and (max-width: 767px){
+#get-list-home li h3 {
+    max-height: 80px;
+    max-width: 200px;
+    min-height: 50px;
+}
+
+#get-div-footer a {
+ 
+    left: 25%;
+ 
+}
+}
+
+#about-op .steps_desc{
+padding-top: 20px;
+}
+
+
+
+
+
+.user-login-section .form-item-name,
+.user-login-section .form-item-pass,
+.user-register-section .form-item-name,
+.user-register-section .form-item-mail{
+    position: relative;
+}
+
+.user-login-section .form-item-name .description,
+.user-login-section .form-item-pass .description,
+.user-register-section .form-item-name .description,
+.user-register-section .form-item-mail .description{
+     position: absolute;
+    top: -21%;
+    visibility: hidden;
+    border: 1px solid black;
+    z-index: 9999999;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: #ec1d3e;
+    color: #ffffff!important;
+    font-size: 11px!important;
+    border-color: #ec1d3e;
+    font-weight: bold!important;
+}
+
+
+.user-login-section .form-item-name input:hover +  .description,
+.user-login-section .form-item-pass input:hover +  .description,
+.user-register-section .form-item-name input:hover +  .description,
+.user-register-section .form-item-mail input:hover +  .description{
+    
+    visibility:visible;
+}
+.user-register-section .form-item-name .description{
+    top: -71%;
+}
+
+.user-register-section .form-item-mail .description{
+    top: -150%;
+}
+
+#get-list-home li a{
+    display: none;
+}
+
+.user-register-section .form-item-pass .description{
+display: none;
+}
+
+
+#go-back-link{
+    
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 4%;
+}
+
+
+#user-account-edit #content{
+position: relative;
+}
+
+.exploreDiv ,
+.createAppDiv{
+    border-color: #ddd!important;
+}
+
+.getStartedHeader{
+    display: none!important;
+}
+
+.getStartedContentWrapper{
+    margin-bottom: 2%;
+}
+
+
+.page-start .logged-in #account-edit-link{
+display: inline!important;
+}
+
+.op-product-view .apicCardIcon div,
+.node--type-product .apicProduct .apicProductHeader .apicProductIcon div{
+margin: 0 auto;
+}
+
+
+
+.link-no{
+    position: absolute;
+    font-size: 30px;
+    top: -15%;
+    right: 45%;
+    border: 1px solid black;
+    border-color: #ffffff;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #000;
+    padding: .5%;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px){
+.link-no{
+right: 40%; 
+}
+}
+
+@media only screen and (max-width: 600px){
+.link-no{
+right: 36%; 
+}
+}
+
+
+#about-op .ex-space{
+    padding: 20px 0 20px;
+}
+
+
+#get-start-home-section{
+margin-top: 3%;
+}
+
+@media only screen and (max-width: 767px){
+#get-start-home-section{
+margin-top: 5%;
+}
+}
+
+.user-account article[typeof="schema:Person"] > div:nth-child(3){
+   
+    max-width: 110px;
+    display: inline-block;
+    /*float: left;*/
+    
+    overflow: hidden;
+
+}
+
+.user-account article[typeof="schema:Person"] > div:nth-child(4){
+    
+    display: inline-block;
+    max-width: 80px;
+    overflow: hidden;
+    margin-left: 10px;
+    
+
+}
+
+.user-account article[typeof="schema:Person"] > a{
+    display: block;
+}
+
+
+#home-partner-banner h2{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#inner-bg-banner{
+    min-height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+.op-back{
+        background-color: rgba(0,0,0,.2);
+}
+
+
+
+#home-get-start{
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 7%;
+}
+
+
+#get-start-home-head{
+    opacity: .99;
+}
+
+
+
+.front-page .op-product-view article,
+.front-page .op-product-view .bx--card .apicProductCard{
+border-radius: 4%;
+}
+
+
+
+
+@media only screen and (min-width: 768px){
+.home-banner #home-banner-login .banner_desc{
+    background-color: rgba(0,0,0,.4);
+    padding: 1%;
+}
+}
+
+
+#banner-center{
+    max-width: 100%!important;
+    position: absolute;
+}
+
+
+.product-view article .apicProductCard .apicProductName{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+#footer-p{
+    font-size: 13px;
+}
+
+
+
+
+
+.productLoginMessage{
+max-width: 250px;
+}
+
+.productLoginMessage .alert-details ul{
+padding-left: 0px;
+list-style: none;
+}
+
+
+.page-myorg-invite #block-ibmapi2portal-page-title{
+padding-left: 0px;
+}
+
+
+.productApiWrapper article .generateButton{
+    display: none;
+}
+
+
+.logged-out #go-back-link{
+    display: none;
+}
+
+
+.pos-rel{
+    position: relative;
+}
+
+
+
+.user-account #content article > a{
+    display: none;
+}
+
+.user-login-section .apic-user-form-registries,
+.user-login-section .apic-user-form-or-container{
+display: none;
+}
+
+
+/*.product-view .views-exposed-form{
+    float: right;
+}
+*/
+
+.product-view .views-exposed-form .select-wrapper{
+    margin-right: 0px;
+}
+
+
+.node--type-application.bx--card .apicCardIcon .bx--about__icon{
+    margin: 0 auto;
+}
+
+
+.api-product-sec article .apicAppCardMain{
+    overflow: hidden;
+}
+
+.api-product-sec article .apicCardIcon{
+    margin-bottom: 5px;
+}
+
+
+.productApiWrapper #innerWrapper article,
+.apicForm .apicSubscribeSummary,
+.productApiWrapper .titleInnerWrapper,
+.path-subscription #content .apicForm,
+.path-subscription-noplan #content .apicForm,
+.apicForm .apicFormHeader,
+#application-delete-form,
+#application-update-form,
+#application-reset-clientid-form,
+#application-upload-image-form,
+#application-reset-clientsecret-form,
+#application-update-credentials-form,
+#application-create-credentials-form{
+max-width: 1120px;
+margin: 0px auto;
+padding-left: 15px;
+}
+
+
+
+#subscription-wizard-confirm-subscribe{
+    max-width: 500px;
+    margin-bottom: 4%;
+}
+
+.apicForm .apicFormText{
+    margin-left: 0%;
+}
+
+
+.apicForm .apicFormHeader{
+    padding-left: 0px;
+}
+
+
+.path-subscription-noplan .apicForm .apic-user-form-wrapper{
+margin-left: 0%;
+}
+
+
+#main{
+    min-height: 342px;
+}
+
+
+@media only screen and (min-width: 1350px){
+  
+#main{
+    min-height: 682px;
+    min-height: calc(100vh - 220px);
+}
+
+}
+
+
+.user-account-edit #main{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.user-account-edit .user-form{
+margin-left: 0px!important;
+
+}
+
+
+.infoSection.forum {
+    display: none!important;
+}
+
+
+article .applicationWrapper .credentialsMenu li,
+article .applicationWrapper .rightTitle li{
+list-style: none;
+}
+
+.user-login-section .apic-user-form .apic-user-form-text{
+    display: none;
+}
+
+
+
+
+.feature-home-product .products-pay-details{
+        /*width: 850px;*/
+        margin: 0px auto;
+}
+
+
+@media only screen and (min-width: 960px){
+  
+  
+    .feature-home-product .products-pay-details li{
+        width: 273px;
+    }
+}
+
+
+@media only screen and (max-width: 991px){
+ul.products_pay_details li,ul.products-pay-details li {
+    width: 165px;
+}
+.get_start_sec.inner_banner {
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    /* min-height: 500px; */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+}
+}
+
+
+
+
+
+/* Ankur Style Start Here */
+.col-md-3.userprofile {    border: 1px solid #ccc;    padding: 20px;}
+.row.user_profile {    text-align: center;} 
+p.username_profile {    font-size: 20px;    font-weight: bold;    text-transform: uppercase;    margin-left: 70px;    margin-top: 10px;}
+.username_button {    text-align: center;}
+.username_button a {    color: #fff;    background: red;    padding: 8px 39px;    border-radius: 5px;}
+.row.createdtime {    margin-top: 30px;}
+#edit-delete {    display: none;}
+.field--name-codesnippet{display:none;}
+#edit-timezone {    display: none;}
+.js-form-item.form-item.js-form-type-language-select.form-item-preferred-langcode.js-form-item-preferred-langcode {    display: none;}
+#edit-statustext {    display: none;}
+#edit-rolestext {    display: none;}
+#edit-avatars-avatar-generator-wrapper {    display: none;}
+#edit-language {    display: none;}
+.row.user_profile img {    width: 120px;    height: 120px;    border-radius: 50%;}
+/* .js-form-item.form-item.js-form-type-password.form-item-current-pass.js-form-item-current-pass {    display: none;} */
+.js-form-item.form-item.js-form-type-textfield.form-item-user-1.js-form-item-user-1{display:none; }
+details#edit-rip {    display: none;}
+.row.firstname1 {    display: none;}
+.row.lastname1{display:none; }
+a#go-back-link {    display: none;}
+.upper_header  li:nth-child(2) a {   pointer-events: none;   cursor: default; text-decoration: none; color: black;}
+.apicProductBody .field.apis{float:left; width:30%;}
+a.btn {    pointer-events: visible !important;    cursor: pointer !important; color:#fff !important;}
+.apicProduct .apicProductBody .apicProductApiList li{width: 300px;}
+.apicFixedColumn{    white-space: unset !important;}
+.op-product-view .apicCardIcon img{margin:auto !important; }
+.tooltip {    position: absolute; z-index: 1070; display: block;   font-size: 16px; }
+.tooltip.in {    opacity: 1;    filter: alpha(opacity=100);}
+.tooltip.top {    margin-top: -3px;    padding: 5px 0;}
+.tooltip.right {    margin-left: 3px;    padding: 0 5px;}
+.tooltip.bottom {    margin-top: 3px;    padding: 5px 0;}
+.tooltip.left {    margin-left: -3px;    padding: 0 5px;}
+.tooltip-inner {    max-width: 15rem;    padding: 3px 8px;    color: #fff;    text-align: center;    background-color: #152935;    border-radius: 0;}
+.tooltip-arrow {    position: absolute;    width: 0;    height: 0;    border-color: transparent;    border-style: solid;}
+.tooltip.top .tooltip-arrow {    bottom: 0;    left: 50%;    margin-left: -5px;    border-width: 5px 5px 0;    border-top-color: #152935;}
+.tooltip.top-left .tooltip-arrow {   bottom: 0;    right: 5px;    margin-bottom: -5px;    border-width: 5px 5px 0;    border-top-color: #152935;}
+.tooltip.top-right .tooltip-arrow {    bottom: 0;    left: 5px;    margin-bottom: -5px;    border-width: 5px 5px 0;    border-top-color: #152935;}
+.tooltip.right .tooltip-arrow {    top: 50%;    left: 0;    margin-top: -5px;    border-width: 5px 5px 5px 0;    border-right-color: #152935;}
+.tooltip.left .tooltip-arrow {    top: 50%;    right: 0;    margin-top: -5px;    border-width: 5px 0 5px 5px;    border-left-color: #152935;}
+.tooltip.bottom .tooltip-arrow {    top: 0;    left: 50%;    margin-left: -5px;    border-width: 0 5px 5px;    border-bottom-color: #152935;}
+.tooltip.bottom-left .tooltip-arrow {    top: 0;    right: 5px;    margin-top: -5px;    border-width: 0 5px 5px;    border-bottom-color: #152935;}
+.tooltip.bottom-right .tooltip-arrow {    top: 0;    left: 5px;    margin-top: -5px;    border-width: 0 5px 5px;    border-bottom-color: #152935;}
+.generateButton {    display: block !important;}
+#edit-field-edit-wrapper {    display: none;}
+.apic-user-form-inner-wrapper.apic-user-form-registries {    display: none;}
+.user-register-section .apic-user-form-subheader{display:none; }
+.apic-user-form-or-container{display:none; }
+.apic-user-form-container .apic-user-form-subheader {    display: none;}
+#user-form #edit-actions{margin-top:20px; }
+a#edit-cancel {    display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
